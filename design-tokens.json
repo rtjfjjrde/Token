@@ -1,0 +1,293 @@
+{
+    "spacing": {
+        "xs": 4,
+        "sm": 8,
+        "md": 16,
+        "lg": 24,
+        "xl": 40,
+        "xxl": 48
+    },
+    "sizing": {
+        "xs": 4,
+        "sm": 8,
+        "md": 16,
+        "lg": 24,
+        "xl": 40,
+        "xxl": 48
+    },
+    "borderRadius": {
+        "sm": 4,
+        "lg": 8,
+        "xl": 16
+    },
+    "borderWidth": {
+        "none": 0,
+        "xs": 1,
+        "sm": 2,
+        "md": 4,
+        "lg": 8
+    },
+    "opacity": {
+        "4": "4%",
+        "8": "8%",
+        "16": "16%",
+        "24": "24%",
+        "32": "32%",
+        "40": "40%",
+        "80": "80%"
+    },
+    "colors": {
+        "Color": {
+            "Primary": {
+            "50": "#e1f1fe",
+            "100": "#b7dcfd",
+            "200": "#87c7fc",
+            "300": "#52b1fb",
+            "500": "#0090fa",
+            "600": "#0082ec",
+            "700": "#0070d8",
+            "800": "#005fc7",
+            "900": "#0041a6",
+            "400 - P": "#18a0fb",
+                "description":"常用的颜色"
+            },
+            "Green": {
+                "50": "#e3f6ee",  
+                "100": "#bbe8d6",
+                "200": "#8dd9bc",
+                "300": "#56cba2",
+                "400": "#12bf8e",
+                "600": "#00a46e",
+                "700": "#009260",
+                "800": "#008053",
+                "900": "#00603c",
+                "500 - P": "#00b37a"
+            }, 
+            "Yellow": {
+                "50": "#fffde5",  
+                "100": "#fffabf",
+                "200": "#fef694",
+                "300": "#fdf166",
+                "500": "#ffee00",
+                "600": "#ffda00",
+                "700": "#ffc100",
+                "800": "#ffa800",
+                "900": "#ff7b00",
+                "400 - P": "#fbed3c"
+            },
+            "Red": {
+                "50": "#fae8e7",
+                "100": "#fecabc",
+                "200": "#fea891",
+                "300": "#fd8566",
+                "400": "#fd6945",
+                "500": "#fd4e26",
+                "700": "#e4411d",
+                "800": "#d63a19",
+                "900": "#bd2d10",
+                "600 - P": "#f24822"
+            }
+        },
+        "ColorAccents ": {
+            " Primary ": {
+                " A100": "#81dbff",
+                " A200": "#43cbff",
+                " A400": "#11bbff",
+                " A700": "#18a0fb"
+            },     
+            " Green ": {
+                " A100": "#b0fedd",
+                " A200": "#7afec3",
+                " A400": "#4de79a",
+                " A700": "#12bf8e"
+            },     
+            " Yellow ": {
+                " A100": "#fdff8e",
+                " A200": "#f9fe00",
+                " A400": "#ffee00",
+                " A700": "#ffdb00"
+            },    
+            " Red ": {
+                " A100": "#fb9f85",
+                " A200": "#f7714c",
+                " A400": "#f24822",
+                " A700": "#cc3c20"
+                }
+        },
+    "Type": {
+        "纯黑文字": "#000000",
+        "主要文字": "#141414",
+        "常规文字": "#434343",
+        "次要文字": "#8c8c8c",  
+        "占位文字": "#bfbfbf",  
+        "纯白": "#ffffff",  
+        "Title White": "#ffffffd9", 
+        "Body White": "#ffffffa6",  
+        "Caption White": "#ffffff73",
+        "Disable White": "#ffffff40"
+    }, 
+    "System": {
+        "Black 10": "#101314",
+        "Black 8": "#101314cc",
+        "Black 5": "#1013148c",
+        "Black 3": "#1013144d",
+        "Black 2": "#10131433",
+        "White 10": "#ffffff",
+        "White 4": "#ffffff66",
+        "White 8": "#ffffffcc",
+        "Border": {
+            "Border 1": "#f0f0f0",
+            "Border 2": "#dadada"
+        },
+        "Background": {
+            "Background 1": "#ffffff",
+            "Background 2": "#f7f7f7",
+            "Background 3": "#f0f2f5",
+            "Background 4": "#101314"
+        }
+    }
+    },
+    "typography": {
+        "Regular": {
+            "主标题": {
+                "value": {
+                    "fontFamily": "$fontFamilies.font-opposans",
+                    "fontWeight": "$fontWeights.font-opposans-0",
+                    "lineHeight": "$lineHeights.0",
+                    "fontSize": "$fontSizes.4",
+                    "letterSpacing": "$letterSpacing.0",
+                    "paragraphSpacing": "$paragraphSpacing.0"
+                    }
+            },
+            "标题": {
+                "value": {
+                    "fontFamily": "$fontFamilies.font-opposans",
+                    "fontWeight": "$fontWeights.font-opposans-0",
+                    "lineHeight": "$lineHeights.0",
+                    "fontSize": "$fontSizes.3",
+                    "letterSpacing": "$letterSpacing.0",
+                    "paragraphSpacing": "$paragraphSpacing.0"
+                    }
+            },
+            "小标题": {
+                "value": {
+                    "fontFamily": "$fontFamilies.font-opposans",
+                    "fontWeight": "$fontWeights.font-opposans-0",
+                    "lineHeight": "$lineHeights.0",
+                    "fontSize": "$fontSizes.2",
+                    "letterSpacing": "$letterSpacing.0",
+                    "paragraphSpacing": "$paragraphSpacing.0"
+                    }
+            },
+            "正文": {
+                "value": {
+                    "fontFamily": "$fontFamilies.font-opposans",
+                    "fontWeight": "$fontWeights.font-opposans-0",
+                    "lineHeight": "$lineHeights.0",
+                    "fontSize": "$fontSizes.1",
+                    "letterSpacing": "$letterSpacing.0",
+                    "paragraphSpacing": "$paragraphSpacing.0"
+                    }
+            },
+            "辅助文字": {
+                "value": {
+                    "fontFamily": "$fontFamilies.font-opposans",
+                    "fontWeight": "$fontWeights.font-opposans-0",
+                    "lineHeight": "$lineHeights.0",
+                    "fontSize": "$fontSizes.0",
+                    "letterSpacing": "$letterSpacing.0",
+                    "paragraphSpacing": "$paragraphSpacing.0"
+                    }
+            }
+        },
+            "Bold": {
+                "主标题": {
+                    "value": {
+                        "fontFamily": "$fontFamilies.font-opposans",
+                        "fontWeight": "$fontWeights.font-opposans-1",
+                        "lineHeight": "$lineHeights.0",
+                        "fontSize": "$fontSizes.4",
+                        "letterSpacing": "$letterSpacing.0",
+                        "paragraphSpacing": "$paragraphSpacing.0"
+                        }
+                },
+                "标题": {
+                    "value": {
+                        "fontFamily": "$fontFamilies.font-opposans",
+                        "fontWeight": "$fontWeights.font-opposans-1",
+                        "lineHeight": "$lineHeights.0",
+                        "fontSize": "$fontSizes.3",
+                        "letterSpacing": "$letterSpacing.0",
+                        "paragraphSpacing": "$paragraphSpacing.0"
+                        }
+                },
+                "小标题": {
+                    "value": {
+                        "fontFamily": "$fontFamilies.font-opposans",
+                        "fontWeight": "$fontWeights.font-opposans-2",
+                        "lineHeight": "$lineHeights.0",
+                        "fontSize": "$fontSizes.2",
+                        "letterSpacing": "$letterSpacing.0",
+                        "paragraphSpacing": "$paragraphSpacing.0"
+                        }
+                },
+                "正文": {
+                    "value": {
+                        "fontFamily": "$fontFamilies.font-opposans",
+                        "fontWeight": "$fontWeights.font-opposans-2",
+                        "lineHeight": "$lineHeights.0",
+                        "fontSize": "$fontSizes.1",
+                        "letterSpacing": "$letterSpacing.0",
+                        "paragraphSpacing": "$paragraphSpacing.0"
+                        }
+                },
+                "辅助文字": {
+                    "value": {
+                        "fontFamily": "$fontFamilies.font-opposans",
+                        "fontWeight": "$fontWeights.font-opposans-2",
+                        "lineHeight": "$lineHeights.0",
+                        "fontSize": "$fontSizes.0",
+                        "letterSpacing": "$letterSpacing.0",
+                        "paragraphSpacing": "$paragraphSpacing.0"
+                        }
+                }
+            }
+        },
+    "fontFamilies": {
+            "Inter": {
+                "value": "Inter"
+        },
+            "oppoSans": {
+                "value": "OPPOSans"
+        },
+            "font-opposans": "OPPOSans"
+        },
+    "lineHeights": {
+        "0": "AUTO",
+        "heading": "110%",
+        "body": "140%"
+    },
+    "letterSpacing": {
+        "0": 0,
+        "default": 0,
+        "increased": "150%",
+        "decreased": "-5%"
+    },
+    "paragraphSpacing": {
+        "0": 0,
+        "h1": 32,
+        "h2": 26
+    },
+    "fontWeights": {
+        "Regular": "Regular",
+        "Bold": "Bold",
+        "Medium": "Medium"
+    },
+    "fontSizes": {
+        "0": 12,
+        "1": 14,
+        "2": 16,
+        "3": 18,
+        "4": 20
+    }
+}
