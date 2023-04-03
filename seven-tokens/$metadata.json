@@ -1,0 +1,12 @@
+{
+  "tokenSetOrder": [
+    "core",
+    "Color_Tokens/content",
+    "Color_Tokens/noContextual",
+    "Color_Tokens/semantic",
+    "Effects",
+    "Components/button",
+    "Components/tag",
+    "themes/web-light"
+  ]
+}
