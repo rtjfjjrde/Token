@@ -3616,7 +3616,7 @@
           },
           "success": {
             "canvas-bg": {
-              "value": "{core.color.goblinwarboss.60}",
+              "value": "{base.color.selectable.success.normal}",
               "type": "color",
               "$extensions": {
                 "studio.tokens": {
@@ -3629,21 +3629,21 @@
               }
             },
             "canvas-border": {
-              "value": "{base.color.selectable.success.default}",
+              "value": "{base.color.selectable.success.normal}",
               "type": "color"
             },
-            "default": {
-              "value": "{core.color.goblinwarboss.60}",
+            "normal": {
+              "value": "{color.action.Success.normal}",
               "type": "color"
             },
             "on-default": {
-              "value": "{core.color.neutral.100}",
+              "value": "{Global.White.white.0}",
               "type": "color"
             }
           },
           "error": {
             "canvas-bg": {
-              "value": "{core.color.bloodburst.40}",
+              "value": "{base.color.selectable.error.normal}",
               "type": "color",
               "$extensions": {
                 "studio.tokens": {
@@ -3656,15 +3656,15 @@
               }
             },
             "canvas-border": {
-              "value": "{base.color.selectable.error.default}",
+              "value": "{base.color.selectable.error.normal}",
               "type": "color"
             },
-            "default": {
-              "value": "{core.color.bloodburst.40}",
+            "normal": {
+              "value": "{color.action.Destructive.normal}",
               "type": "color"
             },
             "on-default": {
-              "value": "{core.color.neutral.100}",
+              "value": "{Global.White.white.0}",
               "type": "color"
             }
           }
@@ -3730,7 +3730,7 @@
         "content": {
           "primary": {
             "darker": {
-              "value": "{core.color.romanticblue.30}",
+              "value": "{color.content.brand}",
               "type": "color",
               "description": "Your primary and secondary brand colors are not necessarily your primary and secondary interaction colors, that's why I added those tokens.",
               "$extensions": {
@@ -3744,11 +3744,11 @@
               }
             },
             "default": {
-              "value": "{core.color.romanticblue.30}",
+              "value": "{color.content.brand}",
               "type": "color"
             },
             "lighter": {
-              "value": "{core.color.romanticblue.30}",
+              "value": "{color.content.brand}",
               "type": "color",
               "$extensions": {
                 "studio.tokens": {
@@ -3763,7 +3763,7 @@
           },
           "secondary": {
             "darker": {
-              "value": "{core.color.electricsheep.40}",
+              "value": "{color.noContextual.other.Purple.Default}",
               "type": "color",
               "$extensions": {
                 "studio.tokens": {
@@ -3776,11 +3776,11 @@
               }
             },
             "default": {
-              "value": "{core.color.electricsheep.40}",
+              "value": "{color.noContextual.other.Purple.Default}",
               "type": "color"
             },
             "lighter": {
-              "value": "{core.color.electricsheep.40}",
+              "value": "{color.noContextual.other.Purple.Default}",
               "type": "color",
               "$extensions": {
                 "studio.tokens": {
