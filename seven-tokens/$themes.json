@@ -1,1 +1,18 @@
-[]
+[
+  {
+    "id": "7fc5b4bc873641946a44c02864ded7171351dcf0",
+    "name": "light",
+    "$figmaStyleReferences": {},
+    "selectedTokenSets": {
+      "core": "source",
+      "Color_Tokens/content": "enabled",
+      "Color_Tokens/noContextual": "enabled",
+      "Color_Tokens/semantic": "enabled",
+      "Effects": "enabled",
+      "Components/button": "enabled",
+      "Components/tag": "enabled",
+      "themes/web-light": "enabled"
+    },
+    "group": "themes"
+  }
+]
