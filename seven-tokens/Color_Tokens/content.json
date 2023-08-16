@@ -243,15 +243,15 @@
       },
       "Success": {
         "normal": {
-          "value": "{color.semantic.positive.-1}",
+          "value": "{color.semantic.positive.0}",
           "type": "color"
         },
         "hover": {
-          "value": "{color.semantic.positive.-2}",
+          "value": "{color.semantic.positive.-1}",
           "type": "color"
         },
         "active": {
-          "value": "{color.semantic.positive.-3}",
+          "value": "{color.semantic.positive.-2}",
           "type": "color"
         },
         "selected": {
@@ -279,15 +279,15 @@
       },
       "Destructive": {
         "normal": {
-          "value": "{color.semantic.negative.-1}",
+          "value": "{color.semantic.negative.0}",
           "type": "color"
         },
         "hover": {
-          "value": "{color.semantic.negative.-2}",
+          "value": "{color.semantic.negative.-1}",
           "type": "color"
         },
         "active": {
-          "value": "{color.semantic.negative.-3}",
+          "value": "{color.semantic.negative.-2}",
           "type": "color"
         },
         "selected": {
