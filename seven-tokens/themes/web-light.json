@@ -13,6 +13,10 @@
         "value": "{color.content.Inverted.primary}",
         "type": "color"
       },
+      "bg-light-gray": {
+        "value": "{color.semantic.neutral.+7}",
+        "type": "color"
+      },
       "bg-cloudy": {
         "value": "{color.content.disabled}",
         "type": "color"
@@ -432,7 +436,7 @@
         "type": "fontWeights"
       },
       "interface-strong": {
-        "value": "700",
+        "value": "600",
         "type": "fontWeights"
       }
     },

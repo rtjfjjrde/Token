@@ -1278,6 +1278,10 @@
     },
     "font-size": {
       "scaled": {
+        "35": {
+          "value": "{core.size.fontBase} * 35",
+          "type": "fontSizes"
+        },
         "50": {
           "value": "{core.size.fontBase} * 50",
           "type": "fontSizes"
