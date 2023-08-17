@@ -505,55 +505,55 @@
     "Red": {
       "red": {
         "0": {
-          "value": "#c53434",
+          "value": "#EF4444",
           "type": "color"
         },
         "-4": {
-          "value": "#4a0d0d",
+          "value": "#511717",
           "type": "color"
         },
         "-3": {
-          "value": "#6f2020",
+          "value": "#762222",
           "type": "color"
         },
         "-2": {
-          "value": "#952d2d",
+          "value": "#9C2D2D",
           "type": "color"
         },
         "-1": {
-          "value": "#a13636",
+          "value": "#C53839",
           "type": "color"
         },
         "+1": {
-          "value": "#f26464",
+          "value": "#FA6F6A",
           "type": "color"
         },
         "+2": {
-          "value": "#f49090",
+          "value": "#FF9491",
           "type": "color"
         },
         "+3": {
-          "value": "#fccfcf",
+          "value": "#FFACA9",
           "type": "color"
         },
         "+4": {
-          "value": "#fcd9d9",
+          "value": "#FFBBBA",
           "type": "color"
         },
         "+5": {
-          "value": "#fee6e6",
+          "value": "#FFCBC9",
           "type": "color"
         },
         "+6": {
-          "value": "#ffebeb",
+          "value": "#ffdad9",
           "type": "color"
         },
         "+7": {
-          "value": "#fef5f5",
+          "value": "#FFE9E9",
           "type": "color"
         },
         "+8": {
-          "value": "#fffafa",
+          "value": "#FEF8F8",
           "type": "color"
         }
       }
@@ -601,7 +601,7 @@
           "type": "color"
         },
         "+6": {
-          "value": "#fff0e0",
+          "value": "#FFF0E0",
           "type": "color"
         },
         "+7": {
