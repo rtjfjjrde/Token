@@ -43,10 +43,6 @@
         "value": "{Global.White.white.0}",
         "type": "color"
       },
-      "inverted": {
-        "value": "{color.semantic.neutral.-3}",
-        "type": "color"
-      },
       "neutral": {
         "value": "{color.semantic.neutral.0}",
         "type": "color"
