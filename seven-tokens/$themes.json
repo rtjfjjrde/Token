@@ -812,7 +812,8 @@
       "base.space.selectable.stack.m": "69961a67d80043e67356660b24f4e73f631a9b71",
       "base.border-radius.scale": "68580813d4d62b033270be3074f38f86299b1152",
       "base.border-width.selectable.none": "e7df734e710c063fc3414b08e6219d94be0ca788",
-      "base.border-width.selectable.m": "a2a955d58ece394929a60d093f5cbf37e8fde8c5"
+      "base.border-width.selectable.m": "a2a955d58ece394929a60d093f5cbf37e8fde8c5",
+      "documentBorder.+7": "61b0a2639c1a536b8d48db75052d489f06bea627"
     },
     "group": "themes"
   },
@@ -1244,7 +1245,8 @@
       "base.border-radius.selectable.m": "4b7ef59f1b5107b68f422ea8dfefd76e6a760774",
       "base.border-radius.selectable.Infinite": "25c5019d13b7ac45b40c2568ef06ec6c86692c2a",
       "base.border-width.selectable.none": "e7df734e710c063fc3414b08e6219d94be0ca788",
-      "base.border-width.selectable.m": "a2a955d58ece394929a60d093f5cbf37e8fde8c5"
+      "base.border-width.selectable.m": "a2a955d58ece394929a60d093f5cbf37e8fde8c5",
+      "documentBorder.+7": "61b0a2639c1a536b8d48db75052d489f06bea627"
     }
   }
 ]

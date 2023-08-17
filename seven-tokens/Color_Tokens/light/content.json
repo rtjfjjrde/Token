@@ -628,9 +628,9 @@
     }
   },
   "Border Color": {
-    "neutral": {
+    "default": {
       "value": {
-        "color": "{color.semantic.neutral.0}",
+        "color": "{color.semantic.neutral.+5}",
         "width": ""
       },
       "type": "border"
@@ -653,15 +653,15 @@
       },
       "type": "border"
     },
-    "negative": {
-      "value": {
-        "color": "{color.semantic.negative.0}"
-      },
-      "type": "border"
-    },
     "brand": {
       "value": {
         "color": "{color.semantic.brand.0}"
+      },
+      "type": "border"
+    },
+    "negative": {
+      "value": {
+        "color": "{color.semantic.negative.0}"
       },
       "type": "border"
     },
@@ -706,6 +706,18 @@
         "color": "{color.semantic.neutral.+5}"
       },
       "type": "border"
+    },
+    "deep": {
+      "value": {
+        "color": "{color.semantic.neutral.0}"
+      },
+      "type": "border"
+    }
+  },
+  "documentBorder": {
+    "+7": {
+      "value": "{core.dimension.50} -1",
+      "type": "borderWidth"
     }
   }
 }
