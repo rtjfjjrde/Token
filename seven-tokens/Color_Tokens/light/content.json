@@ -17,24 +17,6 @@
         "value": "{color.semantic.neutral.+2}",
         "type": "color"
       },
-      "Inverted": {
-        "primary": {
-          "value": "{Global.White.white.0}",
-          "type": "color"
-        },
-        "secondary": {
-          "value": "{Global.White.white.-4}",
-          "type": "color"
-        },
-        "tertiary": {
-          "value": "{Global.White.white.-6}",
-          "type": "color"
-        },
-        "disabled": {
-          "value": "{Global.White.white.-8}",
-          "type": "color"
-        }
-      },
       "information": {
         "value": "{color.semantic.informative.0}",
         "type": "color"
@@ -147,19 +129,19 @@
       },
       "Interaction": {
         "modal": {
-          "value": "{color.content.background.default}",
+          "value": "{color.background.default}",
           "type": "color"
         },
         "sidePanel": {
-          "value": "{color.content.background.default}",
+          "value": "{color.background.default}",
           "type": "color"
         },
         "formField": {
-          "value": "{color.content.background.default}",
+          "value": "{color.background.default}",
           "type": "color"
         },
         "modeless": {
-          "value": "{color.content.background.default}",
+          "value": "{color.background.default}",
           "type": "color"
         },
         "invertedModeless": {
@@ -183,7 +165,7 @@
           "type": "color"
         },
         "selected": {
-          "value": "{color.content.action.Primary.hover}",
+          "value": "{color.action.Primary.hover}",
           "type": "color"
         },
         "Subtle": {
@@ -200,7 +182,7 @@
             "type": "color"
           },
           "selected": {
-            "value": "{color.content.action.Primary.Subtle.hover}",
+            "value": "{color.action.Primary.Subtle.hover}",
             "type": "color"
           }
         }
@@ -219,7 +201,7 @@
           "type": "color"
         },
         "selected": {
-          "value": "{color.content.action.Neutral.hover}",
+          "value": "{color.action.Neutral.hover}",
           "type": "color"
         },
         "Subtle": {
@@ -236,7 +218,7 @@
             "type": "color"
           },
           "selected": {
-            "value": "{color.content.action.Neutral.Subtle.hover}",
+            "value": "{color.action.Neutral.Subtle.hover}",
             "type": "color"
           }
         }
@@ -255,7 +237,7 @@
           "type": "color"
         },
         "selected": {
-          "value": "{color.content.action.Success.hover}",
+          "value": "{color.action.Success.hover}",
           "type": "color"
         },
         "Subtle": {
@@ -272,7 +254,7 @@
             "type": "color"
           },
           "selected": {
-            "value": "{color.content.action.Success.Subtle.hover}",
+            "value": "{color.action.Success.Subtle.hover}",
             "type": "color"
           }
         }
@@ -291,7 +273,7 @@
           "type": "color"
         },
         "selected": {
-          "value": "{color.content.action.Destructive.hover}",
+          "value": "{color.action.Destructive.hover}",
           "type": "color"
         },
         "Subtle": {
@@ -308,7 +290,7 @@
             "type": "color"
           },
           "selected": {
-            "value": "{color.content.action.Destructive.Subtle.hover}",
+            "value": "{color.action.Destructive.Subtle.hover}",
             "type": "color"
           }
         }
@@ -327,7 +309,7 @@
           "type": "color"
         },
         "selected": {
-          "value": "{color.content.action.Ghost.hover}",
+          "value": "{color.action.Ghost.hover}",
           "type": "color"
         },
         "Inverted": {
@@ -340,7 +322,7 @@
             "type": "color"
           },
           "selected": {
-            "value": "{color.content.action.Ghost.Inverted.hover}",
+            "value": "{color.action.Ghost.Inverted.hover}",
             "type": "color"
           }
         },
@@ -354,7 +336,7 @@
             "type": "color"
           },
           "selected": {
-            "value": "{color.content.action.Ghost.Destructive.hover}",
+            "value": "{color.action.Ghost.Destructive.hover}",
             "type": "color"
           }
         }
@@ -373,7 +355,7 @@
           "type": "color"
         },
         "selected": {
-          "value": "{color.content.action.Inverted.hover}",
+          "value": "{color.action.Inverted.hover}",
           "type": "color"
         }
       },
@@ -391,7 +373,7 @@
           "type": "color"
         },
         "selected": {
-          "value": "{color.content.action.Outline.hover}",
+          "value": "{color.action.Outline.hover}",
           "type": "color"
         }
       }
@@ -411,7 +393,7 @@
           "type": "color"
         },
         "selected": {
-          "value": "{color.content.action.Primary.hover}",
+          "value": "{color.action.Primary.hover}",
           "type": "color"
         },
         "Subtle": {
@@ -428,7 +410,7 @@
             "type": "color"
           },
           "selected": {
-            "value": "{color.content.action.Primary.Subtle.hover}",
+            "value": "{color.action.Primary.Subtle.hover}",
             "type": "color"
           }
         }
@@ -447,7 +429,7 @@
           "type": "color"
         },
         "selected": {
-          "value": "{color.content.action.Neutral.hover}",
+          "value": "{color.action.Neutral.hover}",
           "type": "color"
         },
         "Subtle": {
@@ -464,7 +446,7 @@
             "type": "color"
           },
           "selected": {
-            "value": "{color.content.action.Neutral.Subtle.hover}",
+            "value": "{color.action.Neutral.Subtle.hover}",
             "type": "color"
           }
         }
@@ -483,7 +465,7 @@
           "type": "color"
         },
         "selected": {
-          "value": "{color.content.action.Success.hover}",
+          "value": "{color.action.Success.hover}",
           "type": "color"
         },
         "Subtle": {
@@ -500,7 +482,7 @@
             "type": "color"
           },
           "selected": {
-            "value": "{color.content.action.Success.Subtle.hover}",
+            "value": "{color.action.Success.Subtle.hover}",
             "type": "color"
           }
         }
@@ -519,7 +501,7 @@
           "type": "color"
         },
         "selected": {
-          "value": "{color.content.action.Destructive.hover}",
+          "value": "{color.action.Destructive.hover}",
           "type": "color"
         },
         "Subtle": {
@@ -536,7 +518,7 @@
             "type": "color"
           },
           "selected": {
-            "value": "{color.content.action.Destructive.Subtle.hover}",
+            "value": "{color.action.Destructive.Subtle.hover}",
             "type": "color"
           }
         }
@@ -555,7 +537,7 @@
           "type": "color"
         },
         "selected": {
-          "value": "{color.content.action.Ghost.hover}",
+          "value": "{color.action.Ghost.hover}",
           "type": "color"
         },
         "Inverted": {
@@ -568,7 +550,7 @@
             "type": "color"
           },
           "selected": {
-            "value": "{color.content.action.Ghost.Inverted.hover}",
+            "value": "{color.action.Ghost.Inverted.hover}",
             "type": "color"
           }
         },
@@ -582,7 +564,7 @@
             "type": "color"
           },
           "selected": {
-            "value": "{color.content.action.Ghost.Destructive.hover}",
+            "value": "{color.action.Ghost.Destructive.hover}",
             "type": "color"
           }
         }
@@ -601,7 +583,7 @@
           "type": "color"
         },
         "selected": {
-          "value": "{color.content.action.Outline.hover}",
+          "value": "{color.action.Outline.hover}",
           "type": "color"
         }
       },
@@ -625,7 +607,7 @@
           "type": "color"
         },
         "selected": {
-          "value": "{color.content.interaction.Unchecked.hover}",
+          "value": "{color.interaction.Unchecked.hover}",
           "type": "color"
         },
         "Subtle": {
@@ -642,7 +624,7 @@
             "type": "color"
           },
           "selected": {
-            "value": "{color.content.interaction.Unchecked.Subtle.hover}",
+            "value": "{color.interaction.Unchecked.Subtle.hover}",
             "type": "color"
           }
         }

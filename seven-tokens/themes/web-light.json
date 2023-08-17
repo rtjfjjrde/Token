@@ -145,11 +145,11 @@
                 "description": "The old-school way without color modifiers on component level."
               },
               "border": {
-                "value": "{color.content.action.Primary.normal}",
+                "value": "{color.action.Primary.normal}",
                 "type": "color"
               },
               "fg": {
-                "value": "{color.content.action.Primary.normal}",
+                "value": "{color.action.Primary.normal}",
                 "type": "color"
               }
             },
@@ -159,11 +159,11 @@
                 "type": "color"
               },
               "border": {
-                "value": "{color.content.action.Primary.hover}",
+                "value": "{color.action.Primary.hover}",
                 "type": "color"
               },
               "fg": {
-                "value": "{color.content.action.Primary.hover}",
+                "value": "{color.action.Primary.hover}",
                 "type": "color"
               }
             },
@@ -173,11 +173,11 @@
                 "type": "color"
               },
               "border": {
-                "value": "{color.content.action.Primary.active}",
+                "value": "{color.action.Primary.active}",
                 "type": "color"
               },
               "fg": {
-                "value": "{color.content.action.Primary.active}",
+                "value": "{color.action.Primary.active}",
                 "type": "color"
               }
             }
@@ -246,7 +246,7 @@
             "type": "color"
           },
           "normal": {
-            "value": "{color.content.action.Success.normal}",
+            "value": "{color.action.Success.normal}",
             "type": "color"
           },
           "on-default": {
@@ -273,7 +273,7 @@
             "type": "color"
           },
           "normal": {
-            "value": "{color.content.action.Destructive.normal}",
+            "value": "{color.action.Destructive.normal}",
             "type": "color"
           },
           "on-default": {
