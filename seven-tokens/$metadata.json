@@ -1,7 +1,8 @@
 {
   "tokenSetOrder": [
     "core",
-    "Color_Tokens/content",
+    "Color_Tokens/light/content",
+    "Color_Tokens/dark/content",
     "Color_Tokens/noContextual",
     "Color_Tokens/semantic",
     "Effects",
