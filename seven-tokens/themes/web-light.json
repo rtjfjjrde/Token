@@ -691,6 +691,10 @@
       }
     },
     "font-size": {
+      "xs": {
+        "value": "{core.font-size.scaled.62}",
+        "type": "fontSizes"
+      },
       "s": {
         "value": "{core.font-size.scaled.75}",
         "type": "fontSizes"
@@ -801,6 +805,16 @@
           },
           "type": "typography"
         },
+        "sm-ex": {
+          "value": {
+            "fontFamily": "{base.font-family.body}",
+            "fontWeight": "{base.font-weight.body}",
+            "lineHeight": "{base.line-height.body}",
+            "fontSize": "{base.font-size.sm}-1",
+            "paragraphSpacing": "{base.font-size.sm} * {base.paragraph.body}"
+          },
+          "type": "typography"
+        },
         "sm": {
           "value": {
             "fontFamily": "{base.font-family.body}",
@@ -808,6 +822,16 @@
             "lineHeight": "{base.line-height.body}",
             "fontSize": "{base.font-size.sm}",
             "paragraphSpacing": "{base.font-size.sm} * {base.paragraph.body}"
+          },
+          "type": "typography"
+        },
+        "m-ex": {
+          "value": {
+            "fontFamily": "{base.font-family.body}",
+            "fontWeight": "{base.font-weight.body}",
+            "lineHeight": "{base.line-height.body}",
+            "fontSize": "{base.font-size.m}-1",
+            "paragraphSpacing": "{base.font-size.m} * {base.paragraph.body}"
           },
           "type": "typography"
         },
@@ -834,6 +858,16 @@
       },
       "interface": {
         "strong": {
+          "caption": {
+            "value": {
+              "fontFamily": "{base.font-family.interface}",
+              "fontWeight": "{base.font-weight.interface-strong}",
+              "lineHeight": "{base.line-height.interface}",
+              "fontSize": "{base.font-size.xs}",
+              "paragraphSpacing": "{base.font-size.s} * {base.paragraph.interface}"
+            },
+            "type": "typography"
+          },
           "s": {
             "value": {
               "fontFamily": "{base.font-family.interface}",
@@ -886,6 +920,16 @@
           }
         },
         "default": {
+          "caption": {
+            "value": {
+              "fontFamily": "{base.font-family.interface}",
+              "fontWeight": "{base.font-weight.interface-default}",
+              "lineHeight": "{base.line-height.interface}",
+              "fontSize": "{base.font-size.xs}",
+              "paragraphSpacing": "{base.font-size.s} * {base.paragraph.interface}"
+            },
+            "type": "typography"
+          },
           "s": {
             "value": {
               "fontFamily": "{base.font-family.interface}",

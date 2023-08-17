@@ -4,9 +4,8 @@
     "name": "core",
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
-      "core": "enabled"
+      "core": "source"
     },
-    "group": "foundation",
     "$figmaCollectionId": "VariableCollectionId:563:69005",
     "$figmaModeId": "563:0",
     "$figmaVariableReferences": {
@@ -335,7 +334,8 @@
       "tooltips": "3a8e149647bf44b2836b6c7ccf49dc22bab354b0",
       "Straight": "50f9c71516666f1953f4b5f39c971a2db5e77bcc",
       "tooltipBox": "5343f17eca50450cd317ef3fd9ef3b4245ca056c"
-    }
+    },
+    "group": "foundation"
   },
   {
     "id": "7fc5b4bc873641946a44c02864ded7171351dcf0",
