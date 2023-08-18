@@ -10,7 +10,7 @@
         "type": "color"
       },
       "tertiary": {
-        "value": "{Global.White.white.-6}",
+        "value": "{Global.White.white.-5}",
         "type": "color"
       },
       "disabled": {

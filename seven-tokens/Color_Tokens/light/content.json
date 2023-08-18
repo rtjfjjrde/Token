@@ -42,7 +42,7 @@
     },
     "background": {
       "default": {
-        "value": "{Global.White.white.0}",
+        "value": "{color.semantic.neutral.+8}",
         "type": "color"
       },
       "neutral": {
