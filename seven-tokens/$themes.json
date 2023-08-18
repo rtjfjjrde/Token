@@ -230,7 +230,6 @@
       "color.content.Inverted.secondary": "S:c763f976ff66541f9b778c0db60f68d65061c817,",
       "color.content.Inverted.tertiary": "S:9cd976aaa56ea171de22af644c7583a49df82d47,",
       "color.content.Inverted.disabled": "S:679c9e01915ebd7b1d52cf5105b9cb8c9c0fa965,",
-      "color.content.information": "S:8c4382aa904e41e657bbe224fa4589a6c0ae0f86,",
       "color.content.positive": "S:39e182ea5b4be16b5d3bd6230787f278dd4328c4,",
       "color.content.warning": "S:7f2c76cf8bf1a559e8e8e8ad389c91a91c9f4809,",
       "color.content.negative": "S:d8e387a43537870536316bdac1f7e45de857f748,",
@@ -397,7 +396,8 @@
       "Focus.Default Focus": "S:706566d192cbef6ee100befcfe06faab25016851,",
       "Focus.Default Focus + 1px Dark Offset": "S:01f36a85f332a193f33dc4da14ddbeade4681ae1,",
       "Effect.White Offset": "S:abd8985437977c0d44f624a9e2a0ce715bf87b69,",
-      "Effect.Inner Default Border": "S:810c10aa97b862c8e5b51bcb313d5c154bede4f8,"
+      "Effect.Inner Default Border": "S:810c10aa97b862c8e5b51bcb313d5c154bede4f8,",
+      "color.content.informative": "S:8c4382aa904e41e657bbe224fa4589a6c0ae0f86,"
     },
     "selectedTokenSets": {
       "Color_Tokens/noContextual": "enabled",
@@ -622,7 +622,6 @@
       "color.content.secondary": "cb7a5a467490b3295617a52049b4113a4845a315",
       "color.content.tertiary": "1141f5cd728128616deece67a54c53bdbdb51cc8",
       "color.content.disabled": "63f5bfcdabd0095802b4a282f2ec416a55619e05",
-      "color.content.information": "1fb569f4fcfaeabdaf5155170c80733199d74fa1",
       "color.content.positive": "42927857639c8c2932539ff5139a484ce33a1500",
       "color.content.warning": "97d840d7fcad016ecf7dc348a8b239eaca0d6acd",
       "color.content.negative": "da56362b360405e4292720343db3e5642d2105e4",
@@ -813,7 +812,8 @@
       "base.border-radius.scale": "68580813d4d62b033270be3074f38f86299b1152",
       "base.border-width.selectable.none": "e7df734e710c063fc3414b08e6219d94be0ca788",
       "base.border-width.selectable.m": "a2a955d58ece394929a60d093f5cbf37e8fde8c5",
-      "documentBorder.+7": "61b0a2639c1a536b8d48db75052d489f06bea627"
+      "documentBorder.+7": "61b0a2639c1a536b8d48db75052d489f06bea627",
+      "color.content.informative": "1fb569f4fcfaeabdaf5155170c80733199d74fa1"
     },
     "group": "themes"
   },
@@ -1047,7 +1047,6 @@
       "color.content.secondary": "cb7a5a467490b3295617a52049b4113a4845a315",
       "color.content.tertiary": "1141f5cd728128616deece67a54c53bdbdb51cc8",
       "color.content.disabled": "63f5bfcdabd0095802b4a282f2ec416a55619e05",
-      "color.content.information": "1fb569f4fcfaeabdaf5155170c80733199d74fa1",
       "color.content.positive": "42927857639c8c2932539ff5139a484ce33a1500",
       "color.content.warning": "97d840d7fcad016ecf7dc348a8b239eaca0d6acd",
       "color.content.negative": "da56362b360405e4292720343db3e5642d2105e4",
@@ -1246,7 +1245,8 @@
       "base.border-radius.selectable.Infinite": "25c5019d13b7ac45b40c2568ef06ec6c86692c2a",
       "base.border-width.selectable.none": "e7df734e710c063fc3414b08e6219d94be0ca788",
       "base.border-width.selectable.m": "a2a955d58ece394929a60d093f5cbf37e8fde8c5",
-      "documentBorder.+7": "61b0a2639c1a536b8d48db75052d489f06bea627"
+      "documentBorder.+7": "61b0a2639c1a536b8d48db75052d489f06bea627",
+      "color.content.informative": "1fb569f4fcfaeabdaf5155170c80733199d74fa1"
     }
   }
 ]

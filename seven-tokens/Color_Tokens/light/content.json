@@ -17,10 +17,10 @@
         "value": "{color.semantic.neutral.+3}",
         "type": "color"
       },
-      "information": {
+      "informative": {
         "value": "{color.semantic.informative.0}",
         "type": "color",
-        "description": "information 常用于 hypelink，与 brand 做区分"
+        "description": "informative 常用于 hypelink，与 brand 做区分"
       },
       "positive": {
         "value": "{color.semantic.positive.0}",
@@ -65,12 +65,12 @@
         "value": "{color.semantic.negative.0}",
         "type": "color"
       },
-      "brand": {
-        "value": "{color.semantic.brand.0}",
-        "type": "color"
-      },
       "dimmer": {
         "value": "{color.semantic.neutralA.0}",
+        "type": "color"
+      },
+      "brand": {
+        "value": "{color.semantic.brand.0}",
         "type": "color"
       },
       "Subtle": {
