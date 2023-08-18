@@ -14,7 +14,7 @@
         "type": "color"
       },
       "bg-light-gray": {
-        "value": "{color.semantic.neutral.+7}",
+        "value": "{color.background.Surface.neutral}",
         "type": "color"
       },
       "bg-cloudy": {

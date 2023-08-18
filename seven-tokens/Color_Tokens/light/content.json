@@ -14,12 +14,13 @@
         "type": "color"
       },
       "disabled": {
-        "value": "{color.semantic.neutral.+2}",
+        "value": "{color.semantic.neutral.+3}",
         "type": "color"
       },
       "information": {
         "value": "{color.semantic.informative.0}",
-        "type": "color"
+        "type": "color",
+        "description": "information 常用于 hypelink，与 brand 做区分"
       },
       "positive": {
         "value": "{color.semantic.positive.0}",
@@ -35,7 +36,8 @@
       },
       "brand": {
         "value": "{color.semantic.brand.0}",
-        "type": "color"
+        "type": "color",
+        "description": "品牌色暗色模式下不做变化"
       }
     },
     "background": {
@@ -625,91 +627,166 @@
           }
         }
       }
+    },
+    "border": {
+      "default": {
+        "value": "{color.semantic.neutral.+5}",
+        "type": "color"
+      },
+      "default-alpha": {
+        "value": "{color.semantic.neutralA.+5}",
+        "type": "color"
+      },
+      "subtle": {
+        "neutral": {
+          "value": "{color.semantic.neutral.+3}",
+          "type": "color"
+        },
+        "informative": {
+          "value": "{color.semantic.informative.+3}",
+          "type": "color"
+        },
+        "positive": {
+          "value": "{color.semantic.positive.+3}",
+          "type": "color"
+        },
+        "warning": {
+          "value": "{color.semantic.warning.+3}",
+          "type": "color"
+        },
+        "negative": {
+          "value": "{color.semantic.negative.+3}",
+          "type": "color"
+        },
+        "brand": {
+          "value": "{color.semantic.brand.+3}",
+          "type": "color"
+        }
+      },
+      "strong": {
+        "neutral": {
+          "value": "{color.semantic.neutral.0}",
+          "type": "color"
+        },
+        "informative": {
+          "value": "{color.semantic.informative.0}",
+          "type": "color"
+        },
+        "positive": {
+          "value": "{color.semantic.positive.0}",
+          "type": "color"
+        },
+        "warning": {
+          "value": "{color.semantic.warning.0}",
+          "type": "color"
+        },
+        "negative": {
+          "value": "{color.semantic.negative.0}",
+          "type": "color"
+        },
+        "brand": {
+          "value": "{color.semantic.brand.0}",
+          "type": "color"
+        }
+      }
     }
   },
   "Border Color": {
     "default": {
       "value": {
         "color": "{color.semantic.neutral.+5}",
-        "width": ""
+        "width": "{Border.default} "
       },
       "type": "border"
     },
     "informative": {
       "value": {
-        "color": "{color.semantic.informative.0}"
+        "color": "{color.semantic.informative.0}",
+        "width": "{Border.default} "
       },
       "type": "border"
     },
     "positive": {
       "value": {
-        "color": "{color.semantic.positive.0}"
+        "color": "{color.semantic.positive.0}",
+        "width": "{Border.default} "
       },
       "type": "border"
     },
     "warning": {
       "value": {
-        "color": "{color.semantic.warning.0}"
+        "color": "{color.semantic.warning.0}",
+        "width": "{Border.default} "
       },
       "type": "border"
     },
     "brand": {
       "value": {
-        "color": "{color.semantic.brand.0}"
+        "color": "{color.semantic.brand.0}",
+        "width": "{Border.default} "
       },
       "type": "border"
     },
     "negative": {
       "value": {
-        "color": "{color.semantic.negative.0}"
+        "color": "{color.semantic.negative.0}",
+        "width": "{Border.default} "
       },
       "type": "border"
     },
     "sub-neutral": {
       "value": {
-        "color": "{color.semantic.neutral.+3}"
+        "color": "{color.semantic.neutral.+3}",
+        "width": "{Border.default} "
       },
       "type": "border"
     },
     "sub-informative": {
       "value": {
-        "color": "{color.semantic.informative.+3}"
+        "color": "{color.semantic.informative.+3}",
+        "width": "{Border.default} "
       },
       "type": "border"
     },
     "sub-positive": {
       "value": {
-        "color": "{color.semantic.positive.+3}"
+        "color": "{color.semantic.positive.+3}",
+        "width": "{Border.default} "
       },
       "type": "border"
     },
     "sub-warning": {
       "value": {
-        "color": "{color.semantic.warning.+3}"
+        "color": "{color.semantic.warning.+3}",
+        "width": "{Border.default} "
       },
       "type": "border"
     },
     "sub-negative": {
       "value": {
-        "color": "{color.semantic.negative.+3}"
+        "color": "{color.semantic.negative.+3}",
+        "width": "{Border.default} "
       },
       "type": "border"
     },
     "sub-brand": {
       "value": {
+        "width": "{Border.default}",
         "color": "{color.semantic.brand.+3}"
       },
       "type": "border"
     },
     "divider": {
       "value": {
-        "color": "{color.semantic.neutral.+5}"
+        "color": "{color.semantic.neutral.+5}",
+        "width": "{Border.default} "
       },
       "type": "border"
     },
     "deep": {
       "value": {
-        "color": "{color.semantic.neutral.0}"
+        "color": "{color.semantic.neutral.0}",
+        "width": "{Border.default} "
       },
       "type": "border"
     }
@@ -717,6 +794,22 @@
   "documentBorder": {
     "+7": {
       "value": "{core.dimension.50} -1",
+      "type": "borderWidth"
+    }
+  },
+  "Border": {
+    "divider-mobile": {
+      "value": "{core.border-width.5} ",
+      "type": "borderWidth",
+      "description": "作为分割线常用的宽度"
+    },
+    "divider": {
+      "value": "{core.border-width.10} ",
+      "type": "borderWidth",
+      "description": "常用的分割线宽度"
+    },
+    "default": {
+      "value": "{core.border-width.10}",
       "type": "borderWidth"
     }
   }

@@ -2,7 +2,7 @@
   "color": {
     "content": {
       "primary": {
-        "value": "{Global.White.white.0}",
+        "value": "{Global.White.white.-1}",
         "type": "color"
       },
       "secondary": {
@@ -18,7 +18,7 @@
         "type": "color"
       },
       "information": {
-        "value": "{color.semantic.informative.-1}",
+        "value": "{color.semantic.informative.-2}",
         "type": "color"
       },
       "positive": {
@@ -26,7 +26,7 @@
         "type": "color"
       },
       "warning": {
-        "value": "{color.semantic.warning.0}",
+        "value": "{color.semantic.warning.-1}",
         "type": "color"
       },
       "negative": {
@@ -99,7 +99,7 @@
       },
       "Surface": {
         "neutral": {
-          "value": "{color.semantic.neutral.+8}",
+          "value": "{color.semantic.neutral.-1}",
           "type": "color"
         },
         "informative": {
@@ -625,13 +625,75 @@
           }
         }
       }
+    },
+    "border": {
+      "default": {
+        "value": "{color.semantic.neutral.-1}",
+        "type": "color"
+      },
+      "default-alpha": {
+        "value": "{Global.White.white.-5}",
+        "type": "color"
+      },
+      "subtle": {
+        "neutral": {
+          "value": "{color.semantic.neutral.+3}",
+          "type": "color"
+        },
+        "informative": {
+          "value": "{color.semantic.informative.+3}",
+          "type": "color"
+        },
+        "positive": {
+          "value": "{color.semantic.positive.+3}",
+          "type": "color"
+        },
+        "warning": {
+          "value": "{color.semantic.warning.+3}",
+          "type": "color"
+        },
+        "negative": {
+          "value": "{color.semantic.negative.+3}",
+          "type": "color"
+        },
+        "brand": {
+          "value": "{color.semantic.brand.+3}",
+          "type": "color"
+        }
+      },
+      "strong": {
+        "neutral": {
+          "value": "{color.semantic.neutral.0}",
+          "type": "color"
+        },
+        "informative": {
+          "value": "{color.semantic.informative.0}",
+          "type": "color"
+        },
+        "positive": {
+          "value": "{color.semantic.positive.0}",
+          "type": "color"
+        },
+        "warning": {
+          "value": "{color.semantic.warning.0}",
+          "type": "color"
+        },
+        "negative": {
+          "value": "{color.semantic.negative.0}",
+          "type": "color"
+        },
+        "brand": {
+          "value": "{color.semantic.brand.0}",
+          "type": "color"
+        }
+      }
     }
   },
   "Border Color": {
-    "neutral": {
+    "default": {
       "value": {
-        "color": "{color.semantic.neutral.0}",
-        "width": ""
+        "color": "{color.semantic.neutral.+1}",
+        "width": "{Border.default}"
       },
       "type": "border"
     },
