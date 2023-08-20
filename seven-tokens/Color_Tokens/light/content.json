@@ -46,12 +46,40 @@
         "type": "color"
       },
       "neutral": {
-        "value": "{color.semantic.neutral.0}",
-        "type": "color"
+        "strong": {
+          "value": "{color.semantic.neutral.0}",
+          "type": "color",
+          "strong": {
+            "value": "{color.semantic.neutral.0}",
+            "type": "color"
+          },
+          "muted": {
+            "value": "{color.semantic.neutral.+4}",
+            "type": "color"
+          },
+          "onSubtle": {
+            "value": "{color.semantic.neutral.+5}",
+            "type": "color"
+          },
+          "subtle": {
+            "value": "{color.semantic.neutral.+7}",
+            "type": "color"
+          },
+          "surface": {
+            "value": "{color.semantic.neutral.+8}",
+            "type": "color"
+          }
+        },
+        "subtle": {
+          "value": "{color.semantic.neutral.+7}",
+          "type": "color"
+        }
       },
       "informative": {
-        "value": "{color.semantic.informative.0}",
-        "type": "color"
+        "strong": {
+          "value": "{color.semantic.informative.0}",
+          "type": "color"
+        }
       },
       "positive": {
         "value": "{color.semantic.positive.0}",
@@ -74,10 +102,6 @@
         "type": "color"
       },
       "Subtle": {
-        "neutral": {
-          "value": "{color.semantic.neutral.+7}",
-          "type": "color"
-        },
         "informative": {
           "value": "{color.semantic.informative.+7}",
           "type": "color"
@@ -124,259 +148,29 @@
           "value": "{color.semantic.brand.+8}",
           "type": "color"
         }
-      },
-      "Interaction": {
-        "modal": {
-          "value": "{color.background.default}",
-          "type": "color"
-        },
-        "sidePanel": {
-          "value": "{color.background.default}",
-          "type": "color"
-        },
-        "formField": {
-          "value": "{color.background.default}",
-          "type": "color"
-        },
-        "modeless": {
-          "value": "{color.background.default}",
-          "type": "color"
-        },
-        "invertedModeless": {
-          "value": "{color.content.background.inverted}",
-          "type": "color"
-        }
-      }
-    },
-    "action": {
-      "Primary": {
-        "normal": {
-          "value": "{color.semantic.brand.0}",
-          "type": "color"
-        },
-        "hover": {
-          "value": "{color.semantic.brand.-2}",
-          "type": "color"
-        },
-        "active": {
-          "value": "{color.semantic.brand.-3}",
-          "type": "color"
-        },
-        "selected": {
-          "value": "{color.action.Primary.hover}",
-          "type": "color"
-        },
-        "Subtle": {
-          "normal": {
-            "value": "{color.semantic.brand.+6}",
-            "type": "color"
-          },
-          "hover": {
-            "value": "{color.semantic.brand.+5}",
-            "type": "color"
-          },
-          "active": {
-            "value": "{color.semantic.brand.+3}",
-            "type": "color"
-          },
-          "selected": {
-            "value": "{color.action.Primary.Subtle.hover}",
-            "type": "color"
-          }
-        }
-      },
-      "Neutral": {
-        "normal": {
-          "value": "{color.semantic.neutral.-1}",
-          "type": "color"
-        },
-        "hover": {
-          "value": "{color.semantic.neutral.-2}",
-          "type": "color"
-        },
-        "active": {
-          "value": "{color.semantic.neutral.-3}",
-          "type": "color"
-        },
-        "selected": {
-          "value": "{color.action.Neutral.hover}",
-          "type": "color"
-        },
-        "Subtle": {
-          "normal": {
-            "value": "{color.semantic.neutral.+6}",
-            "type": "color"
-          },
-          "hover": {
-            "value": "{color.semantic.neutral.+5}",
-            "type": "color"
-          },
-          "active": {
-            "value": "{color.semantic.neutral.+3}",
-            "type": "color"
-          },
-          "selected": {
-            "value": "{color.action.Neutral.Subtle.hover}",
-            "type": "color"
-          }
-        }
-      },
-      "Success": {
-        "normal": {
-          "value": "{color.semantic.positive.0}",
-          "type": "color"
-        },
-        "hover": {
-          "value": "{color.semantic.positive.-1}",
-          "type": "color"
-        },
-        "active": {
-          "value": "{color.semantic.positive.-2}",
-          "type": "color"
-        },
-        "selected": {
-          "value": "{color.action.Success.hover}",
-          "type": "color"
-        },
-        "Subtle": {
-          "normal": {
-            "value": "{color.semantic.positive.+6}",
-            "type": "color"
-          },
-          "hover": {
-            "value": "{color.semantic.positive.+5}",
-            "type": "color"
-          },
-          "active": {
-            "value": "{color.semantic.positive.+3}",
-            "type": "color"
-          },
-          "selected": {
-            "value": "{color.action.Success.Subtle.hover}",
-            "type": "color"
-          }
-        }
-      },
-      "Destructive": {
-        "normal": {
-          "value": "{color.semantic.negative.0}",
-          "type": "color"
-        },
-        "hover": {
-          "value": "{color.semantic.negative.-1}",
-          "type": "color"
-        },
-        "active": {
-          "value": "{color.semantic.negative.-2}",
-          "type": "color"
-        },
-        "selected": {
-          "value": "{color.action.Destructive.hover}",
-          "type": "color"
-        },
-        "Subtle": {
-          "normal": {
-            "value": "{color.semantic.negative.+6}",
-            "type": "color"
-          },
-          "hover": {
-            "value": "{color.semantic.negative.+5}",
-            "type": "color"
-          },
-          "active": {
-            "value": "{color.semantic.negative.+3}",
-            "type": "color"
-          },
-          "selected": {
-            "value": "{color.action.Destructive.Subtle.hover}",
-            "type": "color"
-          }
-        }
-      },
-      "Ghost": {
-        "normal": {
-          "value": "{Global.White.transparent}",
-          "type": "color"
-        },
-        "hover": {
-          "value": "{color.semantic.neutralA.+4}",
-          "type": "color"
-        },
-        "active": {
-          "value": "{color.semantic.neutralA.+3}",
-          "type": "color"
-        },
-        "selected": {
-          "value": "{color.action.Ghost.hover}",
-          "type": "color"
-        },
-        "Inverted": {
-          "hover": {
-            "value": "{Global.White.white.-8}",
-            "type": "color"
-          },
-          "active": {
-            "value": "{Global.White.white.-7}",
-            "type": "color"
-          },
-          "selected": {
-            "value": "{color.action.Ghost.Inverted.hover}",
-            "type": "color"
-          }
-        },
-        "Destructive": {
-          "hover": {
-            "value": "{color.semantic.negative.+6}",
-            "type": "color"
-          },
-          "active": {
-            "value": "{color.semantic.negative.+5}",
-            "type": "color"
-          },
-          "selected": {
-            "value": "{color.action.Ghost.Destructive.hover}",
-            "type": "color"
-          }
-        }
-      },
-      "Inverted": {
-        "normal": {
-          "value": "{Global.White.white.0}",
-          "type": "color"
-        },
-        "hover": {
-          "value": "{Global.White.white.-1}",
-          "type": "color"
-        },
-        "active": {
-          "value": "{Global.White.white.-2}",
-          "type": "color"
-        },
-        "selected": {
-          "value": "{color.action.Inverted.hover}",
-          "type": "color"
-        }
-      },
-      "Outline": {
-        "normal": {
-          "value": "{color.semantic.neutral.+3}",
-          "type": "color"
-        },
-        "hover": {
-          "value": "{color.semantic.neutral.+2}",
-          "type": "color"
-        },
-        "active": {
-          "value": "{color.semantic.neutral.+1}",
-          "type": "color"
-        },
-        "selected": {
-          "value": "{color.action.Outline.hover}",
-          "type": "color"
-        }
       }
     },
     "interaction": {
+      "modal": {
+        "value": "{color.background.default}",
+        "type": "color"
+      },
+      "sidePanel": {
+        "value": "{color.background.default}",
+        "type": "color"
+      },
+      "formField": {
+        "value": "{color.background.default}",
+        "type": "color"
+      },
+      "modeless": {
+        "value": "{color.background.default}",
+        "type": "color"
+      },
+      "invertedModeless": {
+        "value": "{color.content.background.inverted}",
+        "type": "color"
+      },
       "Primary": {
         "normal": {
           "value": "{color.semantic.brand.0}",
@@ -625,6 +419,234 @@
             "value": "{color.interaction.Unchecked.Subtle.hover}",
             "type": "color"
           }
+        }
+      }
+    },
+    "action": {
+      "Primary": {
+        "normal": {
+          "value": "{color.semantic.brand.0}",
+          "type": "color"
+        },
+        "hover": {
+          "value": "{color.semantic.brand.-2}",
+          "type": "color"
+        },
+        "active": {
+          "value": "{color.semantic.brand.-3}",
+          "type": "color"
+        },
+        "selected": {
+          "value": "{color.action.Primary.hover}",
+          "type": "color"
+        },
+        "Subtle": {
+          "normal": {
+            "value": "{color.semantic.brand.+6}",
+            "type": "color"
+          },
+          "hover": {
+            "value": "{color.semantic.brand.+5}",
+            "type": "color"
+          },
+          "active": {
+            "value": "{color.semantic.brand.+3}",
+            "type": "color"
+          },
+          "selected": {
+            "value": "{color.action.Primary.Subtle.hover}",
+            "type": "color"
+          }
+        }
+      },
+      "Neutral": {
+        "normal": {
+          "value": "{color.semantic.neutral.-1}",
+          "type": "color"
+        },
+        "hover": {
+          "value": "{color.semantic.neutral.-2}",
+          "type": "color"
+        },
+        "active": {
+          "value": "{color.semantic.neutral.-3}",
+          "type": "color"
+        },
+        "selected": {
+          "value": "{color.action.Neutral.hover}",
+          "type": "color"
+        },
+        "Subtle": {
+          "normal": {
+            "value": "{color.semantic.neutral.+6}",
+            "type": "color"
+          },
+          "hover": {
+            "value": "{color.semantic.neutral.+5}",
+            "type": "color"
+          },
+          "active": {
+            "value": "{color.semantic.neutral.+3}",
+            "type": "color"
+          },
+          "selected": {
+            "value": "{color.action.Neutral.Subtle.hover}",
+            "type": "color"
+          }
+        }
+      },
+      "Success": {
+        "normal": {
+          "value": "{color.semantic.positive.0}",
+          "type": "color"
+        },
+        "hover": {
+          "value": "{color.semantic.positive.-1}",
+          "type": "color"
+        },
+        "active": {
+          "value": "{color.semantic.positive.-2}",
+          "type": "color"
+        },
+        "selected": {
+          "value": "{color.action.Success.hover}",
+          "type": "color"
+        },
+        "Subtle": {
+          "normal": {
+            "value": "{color.semantic.positive.+6}",
+            "type": "color"
+          },
+          "hover": {
+            "value": "{color.semantic.positive.+5}",
+            "type": "color"
+          },
+          "active": {
+            "value": "{color.semantic.positive.+3}",
+            "type": "color"
+          },
+          "selected": {
+            "value": "{color.action.Success.Subtle.hover}",
+            "type": "color"
+          }
+        }
+      },
+      "Destructive": {
+        "normal": {
+          "value": "{color.semantic.negative.0}",
+          "type": "color"
+        },
+        "hover": {
+          "value": "{color.semantic.negative.-1}",
+          "type": "color"
+        },
+        "active": {
+          "value": "{color.semantic.negative.-2}",
+          "type": "color"
+        },
+        "selected": {
+          "value": "{color.action.Destructive.hover}",
+          "type": "color"
+        },
+        "Subtle": {
+          "normal": {
+            "value": "{color.semantic.negative.+6}",
+            "type": "color"
+          },
+          "hover": {
+            "value": "{color.semantic.negative.+5}",
+            "type": "color"
+          },
+          "active": {
+            "value": "{color.semantic.negative.+3}",
+            "type": "color"
+          },
+          "selected": {
+            "value": "{color.action.Destructive.Subtle.hover}",
+            "type": "color"
+          }
+        }
+      },
+      "Ghost": {
+        "normal": {
+          "value": "{Global.White.transparent}",
+          "type": "color"
+        },
+        "hover": {
+          "value": "{color.semantic.neutralA.+4}",
+          "type": "color"
+        },
+        "active": {
+          "value": "{color.semantic.neutralA.+3}",
+          "type": "color"
+        },
+        "selected": {
+          "value": "{color.action.Ghost.hover}",
+          "type": "color"
+        },
+        "Inverted": {
+          "hover": {
+            "value": "{Global.White.white.-8}",
+            "type": "color"
+          },
+          "active": {
+            "value": "{Global.White.white.-7}",
+            "type": "color"
+          },
+          "selected": {
+            "value": "{color.action.Ghost.Inverted.hover}",
+            "type": "color"
+          }
+        },
+        "Destructive": {
+          "hover": {
+            "value": "{color.semantic.negative.+6}",
+            "type": "color"
+          },
+          "active": {
+            "value": "{color.semantic.negative.+5}",
+            "type": "color"
+          },
+          "selected": {
+            "value": "{color.action.Ghost.Destructive.hover}",
+            "type": "color"
+          }
+        }
+      },
+      "Inverted": {
+        "normal": {
+          "value": "{Global.White.white.0}",
+          "type": "color"
+        },
+        "hover": {
+          "value": "{Global.White.white.-1}",
+          "type": "color"
+        },
+        "active": {
+          "value": "{Global.White.white.-2}",
+          "type": "color"
+        },
+        "selected": {
+          "value": "{color.action.Inverted.hover}",
+          "type": "color"
+        }
+      },
+      "Outline": {
+        "normal": {
+          "value": "{color.semantic.neutral.+3}",
+          "type": "color"
+        },
+        "hover": {
+          "value": "{color.semantic.neutral.+2}",
+          "type": "color"
+        },
+        "active": {
+          "value": "{color.semantic.neutral.+1}",
+          "type": "color"
+        },
+        "selected": {
+          "value": "{color.action.Outline.hover}",
+          "type": "color"
         }
       }
     },

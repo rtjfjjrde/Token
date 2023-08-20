@@ -559,14 +559,12 @@
       "color.content.negative": "S:d8e387a43537870536316bdac1f7e45de857f748,",
       "color.content.brand": "S:3600cd080a34bef563d07820fe34efcdf68ebd05,",
       "color.background.default": "S:d5e3dfb809d6fb969431d6c655464ffd2b594082,",
-      "color.background.neutral": "S:03803c69201a1f6cf1be401ac5f3f9179614a87d,",
       "color.background.informative": "S:f68c4068465510ba8db4eda0a66f00727dd9ba44,",
       "color.background.positive": "S:deb1a93ab320d7c1ebec6b61cc7ebbda8d7ce021,",
       "color.background.warning": "S:32c0959c7c44a88814856ee3879bc02aa83bf0cf,",
       "color.background.negative": "S:c669a0ee8ff4a578e7e1612c1e766120accb5472,",
       "color.background.brand": "S:5b0c2fa77e384d0941c861b5a4ec627d58d813db,",
       "color.background.dimmer": "S:8678b3457e0d5e1c24b995ff5f87d32bc712deb4,",
-      "color.background.Subtle.neutral": "S:2369e89c51a6733cf44349d1de32c55f96d81d0e,",
       "color.background.Subtle.informative": "S:1d4378e3ca1e9faa5d98c8a2bba93c3ebf4aeef0,",
       "color.background.Subtle.positive": "S:677a614d4079ac4bfa95442b340a13d2a8219891,",
       "color.background.Subtle.warning": "S:b4dafc49301ffa4121766cf80f01940a0f7fc6a1,",
@@ -720,7 +718,9 @@
       "Focus.Default Focus": "S:706566d192cbef6ee100befcfe06faab25016851,",
       "Effect.White Offset": "S:abd8985437977c0d44f624a9e2a0ce715bf87b69,",
       "Effect.Inner Default Border": "S:810c10aa97b862c8e5b51bcb313d5c154bede4f8,",
-      "color.content.informative": "S:8c4382aa904e41e657bbe224fa4589a6c0ae0f86,"
+      "color.content.informative": "S:8c4382aa904e41e657bbe224fa4589a6c0ae0f86,",
+      "color.background.neutral.strong": "S:03803c69201a1f6cf1be401ac5f3f9179614a87d,",
+      "color.background.neutral.subtle": "S:2369e89c51a6733cf44349d1de32c55f96d81d0e,"
     },
     "selectedTokenSets": {
       "Color_Tokens/noContextual": "enabled",
@@ -951,14 +951,12 @@
       "color.content.negative": "a510ae25a7e1cd94188826d46a625aff02740374",
       "color.content.brand": "21c32713615ddde72cc461761b9793a583fe3681",
       "color.background.default": "a19918d1d0cd4bf62ffa132e38d480cc907873b5",
-      "color.background.neutral": "a9a83a32d7180f7a8521d37e13f69d30f5b349c6",
       "color.background.informative": "5d8d8e4b9a3b694f21145afaed4e9a2dda421464",
       "color.background.positive": "6b2fe846bbcf182355f653e2d0fcfebc2692c7ab",
       "color.background.warning": "1ed90e9e94dc358aa94877604c409a641ffb9d8d",
       "color.background.negative": "c0ecca181ada90533dd013e916e2f5145a27a83c",
       "color.background.dimmer": "86a4e945cf051152afe06cacbf12b87572f6ff8f",
       "color.background.brand": "c78d609c9d1d79ed972faa3cc7c8f184834a11d9",
-      "color.background.Subtle.neutral": "75aa2d6041eca96dcaaf60ab1fc1e2a7dbe97846",
       "color.background.Subtle.informative": "6599def674a7543c7f4696e36afc31f1545062b1",
       "color.background.Subtle.positive": "58862649286d9a5247afdb752fa05c51b08a898d",
       "color.background.Subtle.warning": "68d6ca43633760ea4829706d566faefd055ad558",
@@ -1153,7 +1151,9 @@
       "documentBorder.+7": "2e134615c8073ecb17325b7e75483e479222bf50",
       "Border.divider-mobile": "2e96853b68e2e7b1af0dc850f1258ad257c172ed",
       "Border.divider": "b4d460303ce4ea8f2b5ea0611bc21b2bc025b44e",
-      "Border.default": "8e9d132813363d5ba6e8ffc4cdcd4ce6314435b9"
+      "Border.default": "8e9d132813363d5ba6e8ffc4cdcd4ce6314435b9",
+      "color.background.neutral.strong": "a9a83a32d7180f7a8521d37e13f69d30f5b349c6",
+      "color.background.neutral.subtle": "75aa2d6041eca96dcaaf60ab1fc1e2a7dbe97846"
     },
     "group": "themes"
   },
@@ -1393,14 +1393,12 @@
       "color.content.negative": "a510ae25a7e1cd94188826d46a625aff02740374",
       "color.content.brand": "21c32713615ddde72cc461761b9793a583fe3681",
       "color.background.default": "a19918d1d0cd4bf62ffa132e38d480cc907873b5",
-      "color.background.neutral": "a9a83a32d7180f7a8521d37e13f69d30f5b349c6",
       "color.background.informative": "5d8d8e4b9a3b694f21145afaed4e9a2dda421464",
       "color.background.positive": "6b2fe846bbcf182355f653e2d0fcfebc2692c7ab",
       "color.background.warning": "1ed90e9e94dc358aa94877604c409a641ffb9d8d",
       "color.background.negative": "c0ecca181ada90533dd013e916e2f5145a27a83c",
       "color.background.brand": "c78d609c9d1d79ed972faa3cc7c8f184834a11d9",
       "color.background.dimmer": "86a4e945cf051152afe06cacbf12b87572f6ff8f",
-      "color.background.Subtle.neutral": "75aa2d6041eca96dcaaf60ab1fc1e2a7dbe97846",
       "color.background.Subtle.informative": "6599def674a7543c7f4696e36afc31f1545062b1",
       "color.background.Subtle.positive": "58862649286d9a5247afdb752fa05c51b08a898d",
       "color.background.Subtle.warning": "68d6ca43633760ea4829706d566faefd055ad558",
@@ -1604,7 +1602,9 @@
       "documentBorder.+7": "2e134615c8073ecb17325b7e75483e479222bf50",
       "Border.divider-mobile": "2e96853b68e2e7b1af0dc850f1258ad257c172ed",
       "Border.divider": "b4d460303ce4ea8f2b5ea0611bc21b2bc025b44e",
-      "Border.default": "8e9d132813363d5ba6e8ffc4cdcd4ce6314435b9"
+      "Border.default": "8e9d132813363d5ba6e8ffc4cdcd4ce6314435b9",
+      "color.background.neutral.strong": "a9a83a32d7180f7a8521d37e13f69d30f5b349c6",
+      "color.background.neutral.subtle": "75aa2d6041eca96dcaaf60ab1fc1e2a7dbe97846"
     }
   }
 ]
