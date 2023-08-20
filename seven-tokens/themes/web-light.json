@@ -14,7 +14,7 @@
         "type": "color"
       },
       "bg-light-gray": {
-        "value": "{color.background.Surface.neutral}",
+        "value": "{color.background.surface.neutral}",
         "type": "color"
       },
       "bg-cloudy": {
@@ -145,11 +145,11 @@
                 "description": "The old-school way without color modifiers on component level."
               },
               "border": {
-                "value": "{color.action.Primary.normal}",
+                "value": "{color.action.primary.normal}",
                 "type": "color"
               },
               "fg": {
-                "value": "{color.action.Primary.normal}",
+                "value": "{color.action.primary.normal}",
                 "type": "color"
               }
             },
@@ -159,11 +159,11 @@
                 "type": "color"
               },
               "border": {
-                "value": "{color.action.Primary.hover}",
+                "value": "{color.action.primary.hover}",
                 "type": "color"
               },
               "fg": {
-                "value": "{color.action.Primary.hover}",
+                "value": "{color.action.primary.hover}",
                 "type": "color"
               }
             },
@@ -173,11 +173,11 @@
                 "type": "color"
               },
               "border": {
-                "value": "{color.action.Primary.active}",
+                "value": "{color.action.primary.active}",
                 "type": "color"
               },
               "fg": {
-                "value": "{color.action.Primary.active}",
+                "value": "{color.action.primary.active}",
                 "type": "color"
               }
             }
