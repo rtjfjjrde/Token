@@ -181,7 +181,7 @@
     "Default Focus + 1px White Offset": {
       "value": [
         {
-          "color": "{Global.White.white.0}",
+          "color": "{color.background.default}",
           "type": "dropShadow",
           "x": "0",
           "y": "0",
@@ -194,7 +194,7 @@
           "x": "0",
           "y": "0",
           "blur": "0",
-          "spread": "3"
+          "spread": "2"
         }
       ],
       "type": "boxShadow"
@@ -208,27 +208,6 @@
         "color": "{color.interaction.Focus.default}",
         "type": "dropShadow"
       },
-      "type": "boxShadow"
-    },
-    "Default Focus + 1px Dark Offset": {
-      "value": [
-        {
-          "color": "{color.content.background.inverted}",
-          "type": "dropShadow",
-          "x": "0",
-          "y": "0",
-          "blur": "0",
-          "spread": "1"
-        },
-        {
-          "color": "{color.interaction.Focus.default}",
-          "type": "dropShadow",
-          "x": "0",
-          "y": "0",
-          "blur": "0",
-          "spread": "3"
-        }
-      ],
       "type": "boxShadow"
     }
   },

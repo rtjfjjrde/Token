@@ -1119,18 +1119,6 @@
       }
     }
   },
-  "body large": {
-    "value": "16",
-    "type": "fontSizes"
-  },
-  "body text lg": {
-    "value": {
-      "fontSize": "{body large}",
-      "lineHeight": "180%",
-      "fontFamily": ""
-    },
-    "type": "typography"
-  },
   "core": {
     "border-width": {
       "0": {
@@ -1242,16 +1230,6 @@
       "base": {
         "value": "{core.size.rem} / 100",
         "type": "sizing"
-      },
-      "fontRem": {
-        "value": "16",
-        "type": "sizing",
-        "description": "fontRem 为所有文字的 rem 基准。\n我将 size 和 fontSize 的 rem 分开处理，可以更为灵活的配置 Tokens。"
-      },
-      "fontBase": {
-        "value": "{core.size.fontRem} / 100",
-        "type": "sizing",
-        "description": "rem 的固定值的方案无法保障所有的数值为整。作为对齐前端的设计方案无法两者兼得"
       }
     },
     "line-height": {
@@ -1274,102 +1252,6 @@
         "value": "150%",
         "type": "lineHeights",
         "description": "正文行高。"
-      }
-    },
-    "font-size": {
-      "scaled": {
-        "35": {
-          "value": "{core.size.fontBase} * 35",
-          "type": "fontSizes"
-        },
-        "50": {
-          "value": "{core.size.fontBase} * 50",
-          "type": "fontSizes"
-        },
-        "62": {
-          "value": "{core.size.fontBase} * 62.5",
-          "type": "fontSizes"
-        },
-        "75": {
-          "value": "{core.size.base} * 75",
-          "type": "fontSizes"
-        },
-        "87": {
-          "value": "{core.size.fontBase} * 87.5",
-          "type": "fontSizes"
-        },
-        "100": {
-          "value": "{core.size.fontBase} * 100",
-          "type": "fontSizes"
-        },
-        "112": {
-          "value": "{core.size.fontBase} * 112.5",
-          "type": "fontSizes"
-        },
-        "125": {
-          "value": "{core.size.fontBase} * 125",
-          "type": "fontSizes"
-        },
-        "150": {
-          "value": "{core.size.fontBase} * 150",
-          "type": "fontSizes"
-        },
-        "175": {
-          "value": "{core.size.fontBase} * 175",
-          "type": "fontSizes"
-        },
-        "200": {
-          "value": "{core.size.fontBase} * 200",
-          "type": "fontSizes"
-        },
-        "225": {
-          "value": "{core.size.fontBase} * 225",
-          "type": "fontSizes"
-        },
-        "250": {
-          "value": "{core.size.fontBase} * 250",
-          "type": "fontSizes"
-        },
-        "275": {
-          "value": "{core.size.fontBase} * 275",
-          "type": "fontSizes"
-        },
-        "300": {
-          "value": "{core.size.fontBase} * 300",
-          "type": "fontSizes"
-        },
-        "325": {
-          "value": "{core.size.fontBase} * 325",
-          "type": "fontSizes"
-        },
-        "350": {
-          "value": "{core.size.fontBase} * 350",
-          "type": "fontSizes"
-        },
-        "375": {
-          "value": "{core.size.fontBase} * 375",
-          "type": "fontSizes"
-        },
-        "400": {
-          "value": "{core.size.fontBase} * 400",
-          "type": "fontSizes"
-        },
-        "450": {
-          "value": "{core.size.fontBase} * 450",
-          "type": "fontSizes"
-        },
-        "500": {
-          "value": "{core.size.fontBase} * 500",
-          "type": "fontSizes"
-        },
-        "550": {
-          "value": "{core.size.fontBase} * 550",
-          "type": "fontSizes"
-        },
-        "600": {
-          "value": "{core.size.fontBase} * 600",
-          "type": "fontSizes"
-        }
       }
     },
     "paragraph": {
@@ -1529,25 +1411,13 @@
       }
     }
   },
+  "Hidden": {
+    "value": "0",
+    "type": "opacity"
+  },
   "Disabled": {
     "value": ".35",
     "type": "opacity"
-  },
-  "body text": {
-    "value": {
-      "fontSize": "{core.font-size.scaled.87}",
-      "lineHeight": "{core.line-height.s}",
-      "fontFamily": ""
-    },
-    "type": "typography",
-    "description": "正文字预设"
-  },
-  "footer text": {
-    "value": {
-      "lineHeight": "100%",
-      "fontSize": "{core.font-size.scaled.75}"
-    },
-    "type": "typography"
   },
   "Placeholder": {
     "value": "40%",
@@ -1565,16 +1435,6 @@
     "value": "0",
     "type": "borderRadius"
   },
-  "Hidden": {
-    "value": "0",
-    "type": "opacity"
-  },
-  "Tooltip": {
-    "value": {
-      "fontFamily": "{body text}"
-    },
-    "type": "typography"
-  },
   "Regular": {
     "value": "400",
     "type": "fontWeights"
@@ -1587,23 +1447,8 @@
     "value": "700",
     "type": "fontWeights"
   },
-  "Misans": {
-    "value": "MiSans",
-    "type": "fontFamilies",
-    "description": "中文字"
-  },
-  "Inter": {
-    "value": "Inter",
-    "type": "fontFamilies",
-    "description": "西文字"
-  },
   "tooltipBox": {
     "value": "{tooltips}+2",
     "type": "borderRadius"
-  },
-  "Mono": {
-    "value": "Space Mono",
-    "type": "fontFamilies",
-    "description": "等宽字体"
   }
 }

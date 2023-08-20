@@ -38,18 +38,18 @@
         },
         "type": "composition"
       },
-      "default-double": {
+      "single": {
         "value": {
-          "horizontalPadding": "{core.dimension.75}",
+          "horizontalPadding": "{core.dimension.50}",
           "borderRadius": "{core.dimension.25}",
           "itemSpacing": "{core.radius.50}",
           "verticalPadding": "{core.dimension.50}"
         },
         "type": "composition"
       },
-      "single": {
+      "default-double": {
         "value": {
-          "horizontalPadding": "{core.dimension.50}",
+          "horizontalPadding": "{core.dimension.75}",
           "borderRadius": "{core.dimension.25}",
           "itemSpacing": "{core.radius.50}",
           "verticalPadding": "{core.dimension.50}"
