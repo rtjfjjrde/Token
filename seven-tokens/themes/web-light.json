@@ -440,47 +440,6 @@
         "type": "fontWeights"
       }
     },
-    "font-size": {
-      "xs": {
-        "value": "{core.fontSize.scaled.62}",
-        "type": "fontSizes"
-      },
-      "s": {
-        "value": "{core.fontSize.scaled.75}",
-        "type": "fontSizes"
-      },
-      "sm": {
-        "value": "{core.fontSize.scaled.87}",
-        "type": "fontSizes"
-      },
-      "m": {
-        "value": "{core.fontSize.scaled.100}",
-        "type": "fontSizes",
-        "description": "m is the size of body text which is typically the same size as h6."
-      },
-      "ml": {
-        "value": "{core.fontSize.scaled.125}",
-        "type": "fontSizes",
-        "description": "ml is large body text which is typically the same size as h5."
-      },
-      "l": {
-        "value": "{core.fontSize.scaled.150}",
-        "type": "fontSizes"
-      },
-      "xl": {
-        "value": "{core.fontSize.scaled.200}",
-        "type": "fontSizes"
-      },
-      "xxl": {
-        "value": "{core.fontSize.scaled.250}",
-        "type": "fontSizes"
-      },
-      "xxxl": {
-        "value": "{core.fontSize.scaled.300}",
-        "type": "fontSizes",
-        "description": "xxxl is your h1, but don't tell anyone, we want to speak in tokens not in HTML markup."
-      }
-    },
     "line-height": {
       "title": {
         "value": "{core.line-height.m}",

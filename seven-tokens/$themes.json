@@ -4,10 +4,7 @@
     "name": "core",
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
-      "core": "enabled",
-      "typography/typo": "disabled",
-      "typography/font/OPPOSans": "disabled",
-      "typography/font/MiSans": "disabled"
+      "core": "enabled"
     },
     "$figmaCollectionId": "VariableCollectionId:563:69005",
     "$figmaModeId": "563:0",
@@ -732,10 +729,7 @@
       "Components/button": "enabled",
       "Components/tag": "enabled",
       "themes/web-light": "enabled",
-      "Color_Tokens/light/content": "enabled",
-      "typography/typo": "disabled",
-      "typography/font/OPPOSans": "disabled",
-      "typography/font/MiSans": "disabled"
+      "Color_Tokens/light/content": "enabled"
     },
     "$figmaCollectionId": "VariableCollectionId:566:525627",
     "$figmaModeId": "566:2",
@@ -1188,10 +1182,7 @@
       "Effects": "enabled",
       "Components/button": "enabled",
       "Components/tag": "enabled",
-      "themes/web-light": "enabled",
-      "typography/typo": "disabled",
-      "typography/font/OPPOSans": "disabled",
-      "typography/font/MiSans": "disabled"
+      "themes/web-light": "enabled"
     },
     "group": "themes",
     "$figmaCollectionId": "VariableCollectionId:566:525627",
