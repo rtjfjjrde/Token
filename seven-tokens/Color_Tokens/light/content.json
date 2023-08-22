@@ -14,7 +14,7 @@
         "type": "color"
       },
       "tertiary": {
-        "value": "{color.semantic.neutral.+1}",
+        "value": "{color.semantic.neutral.+2}",
         "type": "color"
       },
       "disabled": {
@@ -52,7 +52,7 @@
         "description": "品牌色暗色模式下不做变化"
       },
       "discover": {
-        "value": "{color.noContextual.other.Purple.Default}",
+        "value": "{global.purple.0}",
         "type": "color",
         "description": "品牌色暗色模式下不做变化"
       },

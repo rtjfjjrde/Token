@@ -4,7 +4,8 @@
     "name": "core",
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
-      "core": "enabled"
+      "core": "enabled",
+      "Color_Tokens/dark/content": "disabled"
     },
     "$figmaCollectionId": "VariableCollectionId:563:69005",
     "$figmaModeId": "563:0",
@@ -729,7 +730,8 @@
       "Components/button": "enabled",
       "Components/tag": "enabled",
       "themes/web-light": "enabled",
-      "Color_Tokens/light/content": "enabled"
+      "Color_Tokens/light/content": "enabled",
+      "Color_Tokens/dark/content": "disabled"
     },
     "$figmaCollectionId": "VariableCollectionId:566:525627",
     "$figmaModeId": "566:2",
@@ -1176,13 +1178,13 @@
     "selectedTokenSets": {
       "core": "source",
       "Color_Tokens/light/content": "enabled",
-      "Color_Tokens/dark/content": "enabled",
       "Color_Tokens/noContextual": "enabled",
       "Color_Tokens/semantic": "enabled",
       "Effects": "enabled",
       "Components/button": "enabled",
       "Components/tag": "enabled",
-      "themes/web-light": "enabled"
+      "themes/web-light": "enabled",
+      "Color_Tokens/dark/content": "disabled"
     },
     "group": "themes",
     "$figmaCollectionId": "VariableCollectionId:566:525627",
@@ -1711,7 +1713,8 @@
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "typography/typo": "enabled",
-      "typography/font/MiSans": "enabled"
+      "typography/font/MiSans": "enabled",
+      "Color_Tokens/dark/content": "disabled"
     },
     "group": "typography"
   },
@@ -1724,7 +1727,8 @@
       "Color_Tokens/noContextual": "enabled",
       "Color_Tokens/semantic": "enabled",
       "typography/typo": "enabled",
-      "typography/font/OPPOSans": "enabled"
+      "typography/font/OPPOSans": "enabled",
+      "Color_Tokens/dark/content": "disabled"
     },
     "group": "typography"
   }
