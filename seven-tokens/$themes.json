@@ -4,8 +4,7 @@
     "name": "core",
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
-      "core": "enabled",
-      "Color_Tokens/dark/content": "disabled"
+      "core": "enabled"
     },
     "$figmaCollectionId": "VariableCollectionId:563:69005",
     "$figmaModeId": "563:0",
@@ -730,8 +729,7 @@
       "Components/button": "enabled",
       "Components/tag": "enabled",
       "themes/web-light": "enabled",
-      "Color_Tokens/light/content": "enabled",
-      "Color_Tokens/dark/content": "disabled"
+      "Color_Tokens/light/content": "enabled"
     },
     "$figmaCollectionId": "VariableCollectionId:566:525627",
     "$figmaModeId": "566:2",
@@ -1177,16 +1175,14 @@
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "core": "source",
-      "Color_Tokens/light/content": "enabled",
       "Color_Tokens/noContextual": "enabled",
       "Color_Tokens/semantic": "enabled",
       "Effects": "enabled",
       "Components/button": "enabled",
       "Components/tag": "enabled",
       "themes/web-light": "enabled",
-      "Color_Tokens/dark/content": "disabled"
+      "Color_Tokens/dark/content": "enabled"
     },
-    "group": "themes",
     "$figmaCollectionId": "VariableCollectionId:566:525627",
     "$figmaModeId": "566:3",
     "$figmaVariableReferences": {
@@ -1705,7 +1701,8 @@
       "color.border.danger": "c20279779d217a31d0026f1275a6eedec2d34a67",
       "color.border.warning": "9bf7acd2bbee20227f0f559a6bdae6951b7974f3",
       "color.border.success": "1cb648047037c7680d9af8fd5fcf400a84962868"
-    }
+    },
+    "group": "themes"
   },
   {
     "id": "97f7f7cedf7d816f013dfb246602f0b64e90ed8a",
@@ -1713,8 +1710,7 @@
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "typography/typo": "enabled",
-      "typography/font/MiSans": "enabled",
-      "Color_Tokens/dark/content": "disabled"
+      "typography/font/MiSans": "enabled"
     },
     "group": "typography"
   },
@@ -1727,8 +1723,7 @@
       "Color_Tokens/noContextual": "enabled",
       "Color_Tokens/semantic": "enabled",
       "typography/typo": "enabled",
-      "typography/font/OPPOSans": "enabled",
-      "Color_Tokens/dark/content": "disabled"
+      "typography/font/OPPOSans": "enabled"
     },
     "group": "typography"
   }
