@@ -483,6 +483,10 @@
           "value": "{base.border-radius.scale} * {core.radius.25}",
           "type": "borderRadius"
         },
+        "xsINNER": {
+          "value": "{base.border-radius.container.xs} - 1",
+          "type": "borderRadius"
+        },
         "s": {
           "value": "{base.border-radius.scale} * {core.radius.50}",
           "type": "borderRadius"
