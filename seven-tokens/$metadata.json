@@ -1,7 +1,9 @@
 {
   "tokenSetOrder": [
     "core",
-    "typography",
+    "typography/typo",
+    "typography/font/MiSans",
+    "typography/font/OPPOSans",
     "Color_Tokens/light/content",
     "Color_Tokens/dark/content",
     "Color_Tokens/noContextual",

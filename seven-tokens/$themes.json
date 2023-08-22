@@ -4,7 +4,10 @@
     "name": "core",
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
-      "core": "enabled"
+      "core": "enabled",
+      "typography/typo": "disabled",
+      "typography/font/OPPOSans": "disabled",
+      "typography/font/MiSans": "disabled"
     },
     "$figmaCollectionId": "VariableCollectionId:563:69005",
     "$figmaModeId": "563:0",
@@ -729,7 +732,10 @@
       "Components/button": "enabled",
       "Components/tag": "enabled",
       "themes/web-light": "enabled",
-      "Color_Tokens/light/content": "enabled"
+      "Color_Tokens/light/content": "enabled",
+      "typography/typo": "disabled",
+      "typography/font/OPPOSans": "disabled",
+      "typography/font/MiSans": "disabled"
     },
     "$figmaCollectionId": "VariableCollectionId:566:525627",
     "$figmaModeId": "566:2",
@@ -1182,7 +1188,10 @@
       "Effects": "enabled",
       "Components/button": "enabled",
       "Components/tag": "enabled",
-      "themes/web-light": "enabled"
+      "themes/web-light": "enabled",
+      "typography/typo": "disabled",
+      "typography/font/OPPOSans": "disabled",
+      "typography/font/MiSans": "disabled"
     },
     "group": "themes",
     "$figmaCollectionId": "VariableCollectionId:566:525627",
@@ -1704,5 +1713,28 @@
       "Border.divider": "b4d460303ce4ea8f2b5ea0611bc21b2bc025b44e",
       "Border.default": "8e9d132813363d5ba6e8ffc4cdcd4ce6314435b9"
     }
+  },
+  {
+    "id": "97f7f7cedf7d816f013dfb246602f0b64e90ed8a",
+    "name": "Misans",
+    "$figmaStyleReferences": {},
+    "selectedTokenSets": {
+      "typography/typo": "enabled",
+      "typography/font/MiSans": "enabled"
+    },
+    "group": "typography"
+  },
+  {
+    "id": "dfec118469f873085e943365a7520dc90f998683",
+    "name": "OPPOSans",
+    "$figmaStyleReferences": {},
+    "selectedTokenSets": {
+      "Color_Tokens/light/content": "enabled",
+      "Color_Tokens/noContextual": "enabled",
+      "Color_Tokens/semantic": "enabled",
+      "typography/typo": "enabled",
+      "typography/font/OPPOSans": "enabled"
+    },
+    "group": "typography"
   }
 ]

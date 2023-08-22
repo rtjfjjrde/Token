@@ -530,5 +530,10 @@
     "value": "Space Mono",
     "type": "fontFamilies",
     "description": "等宽字体"
+  },
+  "OPPOSans": {
+    "value": "OPPOSans",
+    "type": "fontFamilies",
+    "description": "opposans"
   }
 }
