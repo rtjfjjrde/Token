@@ -1,8 +1,12 @@
 {
   "color": {
-    "content": {
-      "primary": {
-        "value": "{color.semantic.neutral.-3}",
+    "text": {
+      "default": {
+        "value": "{color.semantic.neutral.-4}",
+        "type": "color"
+      },
+      "default-inverted": {
+        "value": "{color.semantic.neutral.+8}",
         "type": "color"
       },
       "secondary": {
@@ -14,23 +18,31 @@
         "type": "color"
       },
       "disabled": {
-        "value": "{color.semantic.neutral.+3}",
+        "value": "{color.semantic.neutralAlpha.+5}",
         "type": "color"
       },
-      "informative": {
-        "value": "{color.semantic.informative.0}",
+      "information": {
+        "value": "{color.semantic.information.0}",
         "type": "color",
-        "description": "informative 常用于 hypelink，与 brand 做区分"
+        "description": "information 常用于 hypelink，与 brand 做区分"
       },
-      "positive": {
+      "success": {
         "value": "{color.semantic.positive.0}",
         "type": "color"
       },
       "warning": {
         "value": "{color.semantic.warning.0}",
+        "type": "color",
+        "inverted": {
+          "value": "{color.semantic.warning.-4}",
+          "type": "color"
+        }
+      },
+      "warning-inverted": {
+        "value": "{color.semantic.warning.-4}",
         "type": "color"
       },
-      "negative": {
+      "danger": {
         "value": "{color.semantic.negative.0}",
         "type": "color"
       },
@@ -38,6 +50,43 @@
         "value": "{color.semantic.brand.0}",
         "type": "color",
         "description": "品牌色暗色模式下不做变化"
+      },
+      "discover": {
+        "value": "{color.noContextual.other.Purple.Default}",
+        "type": "color",
+        "description": "品牌色暗色模式下不做变化"
+      },
+      "accent": {
+        "red": {
+          "value": "{color.semantic.negative.0}",
+          "type": "color",
+          "description": "可用于红色背景上的红色文字。"
+        },
+        "red-bolder": {
+          "value": "{color.semantic.negative.-2}",
+          "type": "color",
+          "description": "可用于红色背景上的红色文字。"
+        },
+        "orange": {
+          "value": "{global.orange.0}",
+          "type": "color",
+          "description": "可用于橘色背景上的文字。"
+        },
+        "orange-bolder": {
+          "value": "{global.orange.-2}",
+          "type": "color",
+          "description": "可用于橘色背景上的文字。"
+        },
+        "green": {
+          "value": "{global.green.+1}",
+          "type": "color",
+          "description": "可用于对应背景上的文字。"
+        },
+        "green-bolder": {
+          "value": "{global.green.-2}",
+          "type": "color",
+          "description": "可用于对应背景上的文字。"
+        }
       }
     },
     "background": {
@@ -69,8 +118,8 @@
           "type": "color"
         }
       },
-      "informative": {
-        "value": "{color.semantic.informative.0}",
+      "information": {
+        "value": "{color.semantic.information.0}",
         "type": "color"
       },
       "positive": {
@@ -86,7 +135,7 @@
         "type": "color"
       },
       "dimmer": {
-        "value": "{color.semantic.neutralA.0}",
+        "value": "{color.semantic.neutralAlpha.0}",
         "type": "color"
       },
       "brand": {
@@ -98,8 +147,8 @@
           "value": "{color.semantic.neutral.+7}",
           "type": "color"
         },
-        "informative": {
-          "value": "{color.semantic.informative.+7}",
+        "information": {
+          "value": "{color.semantic.information.+7}",
           "type": "color"
         },
         "positive": {
@@ -124,8 +173,8 @@
           "value": "{color.semantic.neutral.+8}",
           "type": "color"
         },
-        "informative": {
-          "value": "{color.semantic.informative.+8}",
+        "information": {
+          "value": "{color.semantic.information.+8}",
           "type": "color"
         },
         "positive": {
@@ -150,8 +199,8 @@
           "value": "{color.semantic.neutral.+4}",
           "type": "color"
         },
-        "informative": {
-          "value": "{color.semantic.informative.+4}",
+        "information": {
+          "value": "{color.semantic.information.+4}",
           "type": "color"
         },
         "positive": {
@@ -176,8 +225,8 @@
           "value": "{color.semantic.neutral.+5}",
           "type": "color"
         },
-        "informative": {
-          "value": "{color.semantic.informative.+5}",
+        "information": {
+          "value": "{color.semantic.information.+5}",
           "type": "color"
         },
         "positive": {
@@ -195,6 +244,152 @@
         "brand": {
           "value": "{color.semantic.brand.+5}",
           "type": "color"
+        }
+      },
+      "form": {
+        "disabled": {
+          "value": "{global.neutralAlpha.+5}",
+          "type": "color"
+        },
+        "input": {
+          "value": "{global.white.0}",
+          "type": "color"
+        },
+        "hover": {
+          "value": "{global.neutral.+7}",
+          "type": "color"
+        },
+        "pressed": {
+          "value": "{global.white.0}",
+          "type": "color"
+        }
+      },
+      "accent": {
+        "neutral": {
+          "subtlest": {
+            "value": "{global.neutral.+7}",
+            "type": "color"
+          },
+          "subtler": {
+            "value": "{global.neutral.+6}",
+            "type": "color"
+          },
+          "subtle": {
+            "value": "{global.neutral.+2}",
+            "type": "color"
+          },
+          "bolder": {
+            "value": "{global.neutral.-1}",
+            "type": "color"
+          }
+        },
+        "red": {
+          "subtlest": {
+            "value": "{global.red.+7}",
+            "type": "color"
+          },
+          "subtler": {
+            "value": "{global.red.+6}",
+            "type": "color"
+          },
+          "subtle": {
+            "value": "{global.red.+2}",
+            "type": "color"
+          },
+          "bolder": {
+            "value": "{global.red.-1}",
+            "type": "color"
+          }
+        },
+        "orange": {
+          "subtlest": {
+            "value": "{global.orange.+7}",
+            "type": "color"
+          },
+          "subtler": {
+            "value": "{global.orange.+6}",
+            "type": "color"
+          },
+          "subtle": {
+            "value": "{global.orange.+2}",
+            "type": "color"
+          },
+          "bolder": {
+            "value": "{global.orange.-1}",
+            "type": "color"
+          }
+        },
+        "green": {
+          "subtlest": {
+            "value": "{global.green.+7}",
+            "type": "color"
+          },
+          "subtler": {
+            "value": "{global.green.+6}",
+            "type": "color"
+          },
+          "subtle": {
+            "value": "{global.green.+2}",
+            "type": "color"
+          },
+          "bolder": {
+            "value": "{global.green.-1}",
+            "type": "color"
+          }
+        },
+        "teal": {
+          "subtlest": {
+            "value": "{global.teal.+7}",
+            "type": "color"
+          },
+          "subtler": {
+            "value": "{global.teal.+6}",
+            "type": "color"
+          },
+          "subtle": {
+            "value": "{global.teal.+2}",
+            "type": "color"
+          },
+          "bolder": {
+            "value": "{global.teal.-1}",
+            "type": "color"
+          }
+        },
+        "blue": {
+          "subtlest": {
+            "value": "{global.blue.+7}",
+            "type": "color"
+          },
+          "subtler": {
+            "value": "{global.blue.+6}",
+            "type": "color"
+          },
+          "subtle": {
+            "value": "{global.blue.+2}",
+            "type": "color"
+          },
+          "bolder": {
+            "value": "{global.blue.-1}",
+            "type": "color"
+          }
+        },
+        "purple": {
+          "subtlest": {
+            "value": "{global.purple.+7}",
+            "type": "color"
+          },
+          "subtler": {
+            "value": "{global.purple.+6}",
+            "type": "color"
+          },
+          "subtle": {
+            "value": "{global.purple.+2}",
+            "type": "color"
+          },
+          "bolder": {
+            "value": "{global.purple.-1}",
+            "type": "color"
+          }
         }
       }
     },
@@ -305,7 +500,7 @@
           "type": "color"
         },
         "selected": {
-          "value": "{color.action.Success.hover}",
+          "value": "{color.action.success.hover}",
           "type": "color"
         },
         "Subtle": {
@@ -322,7 +517,7 @@
             "type": "color"
           },
           "selected": {
-            "value": "{color.action.Success.Subtle.hover}",
+            "value": "{color.action.success.subtle.hover}",
             "type": "color"
           }
         }
@@ -341,7 +536,7 @@
           "type": "color"
         },
         "selected": {
-          "value": "{color.action.Destructive.hover}",
+          "value": "{color.action.destructive.hover}",
           "type": "color"
         },
         "Subtle": {
@@ -358,39 +553,39 @@
             "type": "color"
           },
           "selected": {
-            "value": "{color.action.Destructive.Subtle.hover}",
+            "value": "{color.action.destructive.subtle.hover}",
             "type": "color"
           }
         }
       },
       "ghost": {
         "normal": {
-          "value": "{Global.White.transparent}",
+          "value": "{global.transparent}",
           "type": "color"
         },
         "hover": {
-          "value": "{color.semantic.neutralA.+6}",
+          "value": "{color.semantic.neutralAlpha.+6}",
           "type": "color"
         },
         "active": {
-          "value": "{color.semantic.neutralA.+5}",
+          "value": "{color.semantic.neutralAlpha.+5}",
           "type": "color"
         },
         "selected": {
-          "value": "{color.action.Ghost.hover}",
+          "value": "{color.action.ghost.hover}",
           "type": "color"
         },
         "Inverted": {
           "hover": {
-            "value": "{Global.White.white.-8}",
+            "value": "{global.white.-8}",
             "type": "color"
           },
           "active": {
-            "value": "{Global.White.white.-7}",
+            "value": "{global.white.-7}",
             "type": "color"
           },
           "selected": {
-            "value": "{color.action.Ghost.Inverted.hover}",
+            "value": "{color.action.ghost.inverted.hover}",
             "type": "color"
           }
         },
@@ -404,7 +599,7 @@
             "type": "color"
           },
           "selected": {
-            "value": "{color.action.Ghost.Destructive.hover}",
+            "value": "{color.action.ghost.destructive.hover}",
             "type": "color"
           }
         }
@@ -423,13 +618,13 @@
           "type": "color"
         },
         "selected": {
-          "value": "{color.action.Outline.hover}",
+          "value": "{color.action.outline.hover}",
           "type": "color"
         }
       },
       "Focus": {
         "default": {
-          "value": "{color.semantic.informative.+1}",
+          "value": "{color.semantic.information.+1}",
           "type": "color"
         }
       },
@@ -541,9 +736,27 @@
             "value": "{color.action.neutral.Subtle.hover}",
             "type": "color"
           }
+        },
+        "inverted": {
+          "normal": {
+            "value": "{global.white.0}",
+            "type": "color"
+          },
+          "hover": {
+            "value": "{global.white.-1}",
+            "type": "color"
+          },
+          "active": {
+            "value": "{global.white.-2}",
+            "type": "color"
+          },
+          "selected": {
+            "value": "{color.action.neutral.inverted.hover}",
+            "type": "color"
+          }
         }
       },
-      "Success": {
+      "success": {
         "normal": {
           "value": "{color.semantic.positive.0}",
           "type": "color"
@@ -557,10 +770,10 @@
           "type": "color"
         },
         "selected": {
-          "value": "{color.action.Success.hover}",
+          "value": "{color.action.success.hover}",
           "type": "color"
         },
-        "Subtle": {
+        "subtle": {
           "normal": {
             "value": "{color.semantic.positive.+6}",
             "type": "color"
@@ -574,12 +787,12 @@
             "type": "color"
           },
           "selected": {
-            "value": "{color.action.Success.Subtle.hover}",
+            "value": "{color.action.success.subtle.hover}",
             "type": "color"
           }
         }
       },
-      "Destructive": {
+      "destructive": {
         "normal": {
           "value": "{color.semantic.negative.0}",
           "type": "color"
@@ -593,10 +806,10 @@
           "type": "color"
         },
         "selected": {
-          "value": "{color.action.Destructive.hover}",
+          "value": "{color.action.destructive.hover}",
           "type": "color"
         },
-        "Subtle": {
+        "subtle": {
           "normal": {
             "value": "{color.semantic.negative.+6}",
             "type": "color"
@@ -610,43 +823,43 @@
             "type": "color"
           },
           "selected": {
-            "value": "{color.action.Destructive.Subtle.hover}",
+            "value": "{color.action.destructive.subtle.hover}",
             "type": "color"
           }
         }
       },
-      "Ghost": {
+      "ghost": {
         "normal": {
-          "value": "{Global.White.transparent}",
+          "value": "{global.transparent}",
           "type": "color"
         },
         "hover": {
-          "value": "{color.semantic.neutralA.+4}",
+          "value": "{color.semantic.neutralAlpha.+4}",
           "type": "color"
         },
         "active": {
-          "value": "{color.semantic.neutralA.+3}",
+          "value": "{color.semantic.neutralAlpha.+3}",
           "type": "color"
         },
         "selected": {
-          "value": "{color.action.Ghost.hover}",
+          "value": "{color.action.ghost.hover}",
           "type": "color"
         },
-        "Inverted": {
+        "inverted": {
           "hover": {
-            "value": "{Global.White.white.-8}",
+            "value": "{global.white.-8}",
             "type": "color"
           },
           "active": {
-            "value": "{Global.White.white.-7}",
+            "value": "{global.white.-7}",
             "type": "color"
           },
           "selected": {
-            "value": "{color.action.Ghost.Inverted.hover}",
+            "value": "{color.action.ghost.inverted.hover}",
             "type": "color"
           }
         },
-        "Destructive": {
+        "destructive": {
           "hover": {
             "value": "{color.semantic.negative.+6}",
             "type": "color"
@@ -656,30 +869,12 @@
             "type": "color"
           },
           "selected": {
-            "value": "{color.action.Ghost.Destructive.hover}",
+            "value": "{color.action.ghost.destructive.hover}",
             "type": "color"
           }
         }
       },
-      "Inverted": {
-        "normal": {
-          "value": "{Global.White.white.0}",
-          "type": "color"
-        },
-        "hover": {
-          "value": "{Global.White.white.-1}",
-          "type": "color"
-        },
-        "active": {
-          "value": "{Global.White.white.-2}",
-          "type": "color"
-        },
-        "selected": {
-          "value": "{color.action.Inverted.hover}",
-          "type": "color"
-        }
-      },
-      "Outline": {
+      "outline": {
         "normal": {
           "value": "{color.semantic.neutral.+3}",
           "type": "color"
@@ -693,70 +888,182 @@
           "type": "color"
         },
         "selected": {
-          "value": "{color.action.Outline.hover}",
+          "value": "{color.action.outline.hover}",
           "type": "color"
         }
       }
     },
     "border": {
       "default": {
-        "value": "{color.semantic.neutral.+5}",
+        "value": "{color.semantic.neutralAlpha.+5}",
         "type": "color"
       },
-      "default-alpha": {
-        "value": "{color.semantic.neutralA.+5}",
+      "default-bolder": {
+        "value": "{color.semantic.neutralAlpha.0}",
+        "type": "color"
+      },
+      "default-inverted": {
+        "value": "{global.white.-3}",
+        "type": "color"
+      },
+      "disabled": {
+        "value": "{global.white.-5}",
+        "type": "color"
+      },
+      "focused": {
+        "value": "{color.semantic.brand.+2}",
+        "type": "color"
+      },
+      "selected": {
+        "value": "{color.semantic.brand.0}",
+        "type": "color"
+      },
+      "input": {
+        "value": "{color.semantic.neutralAlpha.+5}",
+        "type": "color"
+      },
+      "information": {
+        "value": "{color.semantic.information.0}",
+        "type": "color"
+      },
+      "success": {
+        "value": "{color.semantic.positive.0}",
+        "type": "color"
+      },
+      "warning": {
+        "value": "{color.semantic.warning.0}",
+        "type": "color"
+      },
+      "danger": {
+        "value": "{color.semantic.negative.0}",
+        "type": "color"
+      },
+      "accent": {
+        "red": {
+          "value": "{color.semantic.negative.0}",
+          "type": "color",
+          "description": "可用于红色背景上的红色文字。"
+        },
+        "orange": {
+          "value": "{global.orange.0}",
+          "type": "color",
+          "description": "可用于橘色背景上的文字。"
+        },
+        "green": {
+          "value": "{global.green.+1}",
+          "type": "color",
+          "description": "可用于对应背景上的文字。"
+        },
+        "teal": {
+          "value": "{global.teal.0}",
+          "type": "color",
+          "description": "可用于对应背景上的文字。"
+        },
+        "purple": {
+          "value": "{global.purple.0}",
+          "type": "color",
+          "description": "可用于对应背景上的文字。"
+        },
+        "neutral": {
+          "value": "{global.neutral.0}",
+          "type": "color",
+          "description": "可用于对应背景上的文字。"
+        }
+      }
+    },
+    "link": {
+      "default": {
+        "value": "{color.semantic.information.0}",
+        "type": "color"
+      },
+      "bolder": {
+        "value": "{color.semantic.information.-2}",
+        "type": "color"
+      }
+    },
+    "icon": {
+      "default": {
+        "value": "{color.semantic.neutral.-4}",
+        "type": "color",
+        "description": "通常我建议使用 inverted global 作为通用的 default 颜色"
+      },
+      "default-inverted": {
+        "value": "{color.semantic.neutral.+8}",
         "type": "color"
       },
       "subtle": {
-        "neutral": {
-          "value": "{color.semantic.neutral.+3}",
-          "type": "color"
-        },
-        "informative": {
-          "value": "{color.semantic.informative.+3}",
-          "type": "color"
-        },
-        "positive": {
-          "value": "{color.semantic.positive.+3}",
-          "type": "color"
-        },
-        "warning": {
-          "value": "{color.semantic.warning.+3}",
-          "type": "color"
-        },
-        "negative": {
-          "value": "{color.semantic.negative.+3}",
-          "type": "color"
-        },
-        "brand": {
-          "value": "{color.semantic.brand.+3}",
+        "value": "{color.semantic.neutral.+1}",
+        "type": "color"
+      },
+      "disabled": {
+        "value": "{color.semantic.neutral.+3}",
+        "type": "color"
+      },
+      "information": {
+        "value": "{color.semantic.information.0}",
+        "type": "color",
+        "description": "information 常用于 hypelink，与 brand 做区分"
+      },
+      "success": {
+        "value": "{color.semantic.positive.0}",
+        "type": "color"
+      },
+      "warning": {
+        "value": "{color.semantic.warning.0}",
+        "type": "color",
+        "inverted": {
+          "value": "{color.semantic.warning.-4}",
           "type": "color"
         }
       },
-      "strong": {
-        "neutral": {
-          "value": "{color.semantic.neutral.0}",
-          "type": "color"
-        },
-        "informative": {
-          "value": "{color.semantic.informative.0}",
-          "type": "color"
-        },
-        "positive": {
-          "value": "{color.semantic.positive.0}",
-          "type": "color"
-        },
-        "warning": {
-          "value": "{color.semantic.warning.0}",
-          "type": "color"
-        },
-        "negative": {
+      "warning-inverted": {
+        "value": "{color.semantic.warning.-4}",
+        "type": "color"
+      },
+      "danger": {
+        "value": "{color.semantic.negative.0}",
+        "type": "color"
+      },
+      "brand": {
+        "value": "{color.semantic.brand.0}",
+        "type": "color",
+        "description": "品牌色暗色模式下不做变化"
+      },
+      "discover": {
+        "value": "{color.noContextual.other.Purple.Default}",
+        "type": "color",
+        "description": "品牌色暗色模式下不做变化"
+      },
+      "accent": {
+        "red": {
           "value": "{color.semantic.negative.0}",
-          "type": "color"
+          "type": "color",
+          "description": "可用于红色背景上的红色文字。"
         },
-        "brand": {
-          "value": "{color.semantic.brand.0}",
-          "type": "color"
+        "red-bolder": {
+          "value": "{color.semantic.negative.-2}",
+          "type": "color",
+          "description": "可用于红色背景上的红色文字。"
+        },
+        "orange": {
+          "value": "{global.orange.0}",
+          "type": "color",
+          "description": "可用于橘色背景上的文字。"
+        },
+        "orange-bolder": {
+          "value": "{global.orange.-2}",
+          "type": "color",
+          "description": "可用于橘色背景上的文字。"
+        },
+        "green": {
+          "value": "{global.green.+1}",
+          "type": "color",
+          "description": "可用于对应背景上的文字。"
+        },
+        "green-bolder": {
+          "value": "{global.green.-2}",
+          "type": "color",
+          "description": "可用于对应背景上的文字。"
         }
       }
     }
@@ -769,9 +1076,9 @@
       },
       "type": "border"
     },
-    "informative": {
+    "information": {
       "value": {
-        "color": "{color.semantic.informative.0}",
+        "color": "{color.semantic.information.0}",
         "width": "{Border.default} "
       },
       "type": "border"
@@ -811,9 +1118,9 @@
       },
       "type": "border"
     },
-    "sub-informative": {
+    "sub-information": {
       "value": {
-        "color": "{color.semantic.informative.+3}",
+        "color": "{color.semantic.information.+3}",
         "width": "{Border.default} "
       },
       "type": "border"

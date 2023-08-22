@@ -11,6 +11,7 @@
     "Effects",
     "Components/button",
     "Components/tag",
-    "themes/web-light"
+    "themes/web-light",
+    "themes/colors"
   ]
 }

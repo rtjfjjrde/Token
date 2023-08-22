@@ -4,287 +4,287 @@
       "other": {
         "Grey": {
           "On Muted": {
-            "value": "{Global.Grey.grey.-4}",
+            "value": "{global.grey.-4}",
             "type": "color"
           },
           "Default": {
-            "value": "{Global.Grey.grey.0}",
+            "value": "{global.grey.0}",
             "type": "color"
           },
           "Muted": {
-            "value": "{Global.Grey.grey.+4}",
+            "value": "{global.grey.+4}",
             "type": "color"
           },
           "Subtle": {
-            "value": "{Global.Grey.grey.+5}",
+            "value": "{global.grey.+5}",
             "type": "color"
           },
           "Surface": {
-            "value": "{Global.Grey.grey.+6}",
+            "value": "{global.grey.+6}",
             "type": "color"
           }
         },
         "Red": {
           "On Muted": {
-            "value": "{Global.Red.red.-4}",
+            "value": "{global.red.-4}",
             "type": "color"
           },
           "Default": {
-            "value": "{Global.Red.red.0}",
+            "value": "{global.red.0}",
             "type": "color"
           },
           "Muted": {
-            "value": "{Global.Red.red.+4}",
+            "value": "{global.red.+4}",
             "type": "color"
           },
           "Subtle": {
-            "value": "{Global.Red.red.+5}",
+            "value": "{global.red.+5}",
             "type": "color"
           },
           "Surface": {
-            "value": "{Global.Red.red.+6}",
+            "value": "{global.red.+6}",
             "type": "color"
           }
         },
         "Raspberry": {
           "On Muted": {
-            "value": "{Global.Raspberry.raspberry.-4}",
+            "value": "{global.raspberry.-4}",
             "type": "color"
           },
           "Default": {
-            "value": "{Global.Raspberry.raspberry.0}",
+            "value": "{global.raspberry.0}",
             "type": "color"
           },
           "Muted": {
-            "value": "{Global.Raspberry.raspberry.+4}",
+            "value": "{global.raspberry.+4}",
             "type": "color"
           },
           "Subtle": {
-            "value": "{Global.Raspberry.raspberry.+5}",
+            "value": "{global.raspberry.+5}",
             "type": "color"
           },
           "Surface": {
-            "value": "{Global.Raspberry.raspberry.+6}",
+            "value": "{global.raspberry.+6}",
             "type": "color"
           }
         },
         "Magenta": {
           "On Muted": {
-            "value": "{Global.Magenta.magenta.-4}",
+            "value": "{global.magenta.-4}",
             "type": "color"
           },
           "Default": {
-            "value": "{Global.Magenta.magenta.0}",
+            "value": "{global.magenta.0}",
             "type": "color"
           },
           "Muted": {
-            "value": "{Global.Magenta.magenta.+4}",
+            "value": "{global.magenta.+4}",
             "type": "color"
           },
           "Subtle": {
-            "value": "{Global.Magenta.magenta.+5}",
+            "value": "{global.magenta.+5}",
             "type": "color"
           },
           "Surface": {
-            "value": "{Global.Magenta.magenta.+6}",
+            "value": "{global.magenta.+6}",
             "type": "color"
           }
         },
         "Purple": {
           "On Muted": {
-            "value": "{Global.Purple.purple.-4}",
+            "value": "{global.purple.-4}",
             "type": "color"
           },
           "Default": {
-            "value": "{Global.Purple.purple.0}",
+            "value": "{global.purple.0}",
             "type": "color"
           },
           "Muted": {
-            "value": "{Global.Purple.purple.+4}",
+            "value": "{global.purple.+4}",
             "type": "color"
           },
           "Subtle": {
-            "value": "{Global.Purple.purple.+5}",
+            "value": "{global.purple.+5}",
             "type": "color"
           },
           "Surface": {
-            "value": "{Global.Purple.purple.+6}",
+            "value": "{global.purple.+6}",
             "type": "color"
           }
         },
         "Grape": {
           "On Muted": {
-            "value": "{Global.Grape.grape.-4}",
+            "value": "{global.grape.-4}",
             "type": "color"
           },
           "Default": {
-            "value": "{Global.Grape.grape.0}",
+            "value": "{global.grape.0}",
             "type": "color"
           },
           "Muted": {
-            "value": "{Global.Grape.grape.+4}",
+            "value": "{global.grape.+4}",
             "type": "color"
           },
           "Subtle": {
-            "value": "{Global.Grape.grape.+5}",
+            "value": "{global.grape.+5}",
             "type": "color"
           },
           "Surface": {
-            "value": "{Global.Grape.grape.+6}",
+            "value": "{global.grape.+6}",
             "type": "color"
           }
         },
         "Violet": {
           "On Muted": {
-            "value": "{Global.Violet.violet.-4}",
+            "value": "{global.violet.-4}",
             "type": "color"
           },
           "Default": {
-            "value": "{Global.Violet.violet.0}",
+            "value": "{global.violet.0}",
             "type": "color"
           },
           "Muted": {
-            "value": "{Global.Violet.violet.+4}",
+            "value": "{global.violet.+4}",
             "type": "color"
           },
           "Subtle": {
-            "value": "{Global.Violet.violet.+5}",
+            "value": "{global.violet.+5}",
             "type": "color"
           },
           "Surface": {
-            "value": "{Global.Violet.violet.+6}",
+            "value": "{global.violet.+6}",
             "type": "color"
           }
         },
         "Blue": {
           "On Muted": {
-            "value": "{Global.Blue.blue.-4}",
+            "value": "{global.blue.-4}",
             "type": "color"
           },
           "Default": {
-            "value": "{Global.Blue.blue.0}",
+            "value": "{global.blue.0}",
             "type": "color"
           },
           "Muted": {
-            "value": "{Global.Blue.blue.+4}",
+            "value": "{global.blue.+4}",
             "type": "color"
           },
           "Subtle": {
-            "value": "{Global.Blue.blue.+5}",
+            "value": "{global.blue.+5}",
             "type": "color"
           },
           "Surface": {
-            "value": "{Global.Blue.blue.+6}",
+            "value": "{global.blue.+6}",
             "type": "color"
           }
         },
         "Cyan": {
           "On Muted": {
-            "value": "{Global.Cyan.cyan.-4}",
+            "value": "{global.cyan.-4}",
             "type": "color"
           },
           "Default": {
-            "value": "{Global.Cyan.cyan.0}",
+            "value": "{global.cyan.0}",
             "type": "color"
           },
           "Muted": {
-            "value": "{Global.Cyan.cyan.+4}",
+            "value": "{global.cyan.+4}",
             "type": "color"
           },
           "Subtle": {
-            "value": "{Global.Cyan.cyan.+5}",
+            "value": "{global.cyan.+5}",
             "type": "color"
           },
           "Surface": {
-            "value": "{Global.Cyan.cyan.+6}",
+            "value": "{global.cyan.+6}",
             "type": "color"
           }
         },
         "Teal": {
           "On Muted": {
-            "value": "{Global.Teal.teal.-4}",
+            "value": "{global.teal.-4}",
             "type": "color"
           },
           "Default": {
-            "value": "{Global.Teal.teal.0}",
+            "value": "{global.teal.0}",
             "type": "color"
           },
           "Muted": {
-            "value": "{Global.Teal.teal.+4}",
+            "value": "{global.teal.+4}",
             "type": "color"
           },
           "Subtle": {
-            "value": "{Global.Teal.teal.+5}",
+            "value": "{global.teal.+5}",
             "type": "color"
           },
           "Surface": {
-            "value": "{Global.Teal.teal.+6}",
+            "value": "{global.teal.+6}",
             "type": "color"
           }
         },
         "Aquamarine": {
           "On Muted": {
-            "value": "{Global.Aquamarine.aquamarine.-4}",
+            "value": "{global.aquamarine.-4}",
             "type": "color"
           },
           "Default": {
-            "value": "{Global.Aquamarine.aquamarine.0}",
+            "value": "{global.aquamarine.0}",
             "type": "color"
           },
           "Muted": {
-            "value": "{Global.Aquamarine.aquamarine.+4}",
+            "value": "{global.aquamarine.+4}",
             "type": "color"
           },
           "Subtle": {
-            "value": "{Global.Aquamarine.aquamarine.+5}",
+            "value": "{global.aquamarine.+5}",
             "type": "color"
           },
           "Surface": {
-            "value": "{Global.Aquamarine.aquamarine.+6}",
+            "value": "{global.aquamarine.+6}",
             "type": "color"
           }
         },
         "Green": {
           "On Muted": {
-            "value": "{Global.Green.green.-4}",
+            "value": "{global.green.-4}",
             "type": "color"
           },
           "Default": {
-            "value": "{Global.Green.green.0}",
+            "value": "{global.green.0}",
             "type": "color"
           },
           "Muted": {
-            "value": "{Global.Green.green.+4}",
+            "value": "{global.green.+4}",
             "type": "color"
           },
           "Subtle": {
-            "value": "{Global.Green.green.+5}",
+            "value": "{global.green.+5}",
             "type": "color"
           },
           "Surface": {
-            "value": "{Global.Green.green.+6}",
+            "value": "{global.green.+6}",
             "type": "color"
           }
         },
         "Emerald": {
           "On Muted": {
-            "value": "{Global.Emerald.emerald.-4}",
+            "value": "{global.emerald.-4}",
             "type": "color"
           },
           "Default": {
-            "value": "{Global.Emerald.emerald.0}",
+            "value": "{global.emerald.0}",
             "type": "color"
           },
           "Muted": {
-            "value": "{Global.Emerald.emerald.+4}",
+            "value": "{global.emerald.+4}",
             "type": "color"
           },
           "Subtle": {
-            "value": "{Global.Emerald.emerald.+5}",
+            "value": "{global.emerald.+5}",
             "type": "color"
           },
           "Surface": {
-            "value": "{Global.Emerald.emerald.+6}",
+            "value": "{global.emerald.+6}",
             "type": "color"
           }
         }
