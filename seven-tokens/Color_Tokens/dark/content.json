@@ -94,6 +94,10 @@
         "value": "{global.warmGrey.-4}",
         "type": "color"
       },
+      "default-max": {
+        "value": "{global.grey.-4}",
+        "type": "color"
+      },
       "neutral": {
         "value": "{color.semantic.neutral.0}",
         "type": "color",

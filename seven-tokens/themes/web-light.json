@@ -121,18 +121,18 @@
       }
     },
     "border-radius": {
-      "scale": {
-        "value": "1",
+      "✦scale": {
+        "value": "1.5",
         "type": "borderRadius",
-        "description": "I added a scale here to be able to change the roundness of all border-radiuses simultaneously. That can be a very nice mechanism for several other tokens."
+        "description": "这是一个缩放倍率，作用为同时修改所有的圆角半径。"
       },
       "container": {
         "none": {
-          "value": "{base.border-radius.scale} * {core.radius.0}",
+          "value": "{base.border-radius.✦scale} * {core.radius.0}",
           "type": "borderRadius"
         },
         "xs": {
-          "value": "{base.border-radius.scale} * {core.radius.25}",
+          "value": "{base.border-radius.✦scale} * {core.radius.25}",
           "type": "borderRadius"
         },
         "xsINNER": {
@@ -140,29 +140,29 @@
           "type": "borderRadius"
         },
         "s": {
-          "value": "{base.border-radius.scale} * {core.radius.50}",
+          "value": "{base.border-radius.✦scale} * {core.radius.50}",
           "type": "borderRadius"
         },
         "m": {
-          "value": "{base.border-radius.scale} * {core.radius.100}",
+          "value": "{base.border-radius.✦scale} * {core.radius.100}",
           "type": "borderRadius"
         },
         "l": {
-          "value": "{base.border-radius.scale} * {core.radius.150}",
+          "value": "{base.border-radius.✦scale} * {core.radius.150}",
           "type": "borderRadius"
         },
         "Infinite": {
-          "value": "{base.border-radius.scale} * {core.radius.Infinite}",
+          "value": "{base.border-radius.✦scale} * {core.radius.Infinite}",
           "type": "borderRadius"
         }
       },
       "selectable": {
         "m": {
-          "value": "{base.border-radius.scale} * {core.radius.25}",
+          "value": "{base.border-radius.✦scale} * {core.radius.25}",
           "type": "borderRadius"
         },
         "Infinite": {
-          "value": "{base.border-radius.scale} * {core.radius.Infinite}",
+          "value": "{base.border-radius.✦scale} * {core.radius.Infinite}",
           "type": "borderRadius"
         }
       }

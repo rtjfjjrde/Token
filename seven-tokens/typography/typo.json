@@ -57,11 +57,11 @@
       "type": "letterSpacing"
     },
     "1": {
-      "value": "0%",
+      "value": "1%",
       "type": "letterSpacing"
     },
     "2": {
-      "value": "2%",
+      "value": "0%",
       "type": "letterSpacing"
     }
   },
