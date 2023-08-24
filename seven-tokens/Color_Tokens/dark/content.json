@@ -5,7 +5,7 @@
         "value": "{color.semantic.neutral.+8}",
         "type": "color"
       },
-      "default-inverted": {
+      "default-inverse": {
         "value": "{color.semantic.neutral.-4}",
         "type": "color"
       },
@@ -38,7 +38,7 @@
           "type": "color"
         }
       },
-      "warning-inverted": {
+      "warning-inverse": {
         "value": "{color.semantic.warning.+6}",
         "type": "color"
       },
@@ -58,32 +58,32 @@
       },
       "accent": {
         "red": {
-          "value": "{color.semantic.negative.-1}",
+          "value": "{color.semantic.negative.+2}",
           "type": "color",
           "description": "可用于红色背景上的红色文字。"
         },
         "red-bolder": {
-          "value": "{color.semantic.negative.+3}",
+          "value": "{color.semantic.negative.+4}",
           "type": "color",
           "description": "可用于红色背景上的红色文字。"
         },
         "orange": {
-          "value": "{global.orange.-1}",
+          "value": "{global.orange.+2}",
           "type": "color",
           "description": "可用于橘色背景上的文字。"
         },
         "orange-bolder": {
-          "value": "{global.orange.+3}",
+          "value": "{global.orange.+5}",
           "type": "color",
           "description": "可用于橘色背景上的文字。"
         },
         "green": {
-          "value": "{global.green.-1}",
+          "value": "{global.green.+2}",
           "type": "color",
           "description": "可用于对应背景上的文字。"
         },
         "green-bolder": {
-          "value": "{global.green.+3}",
+          "value": "{global.green.+4}",
           "type": "color",
           "description": "可用于对应背景上的文字。"
         }

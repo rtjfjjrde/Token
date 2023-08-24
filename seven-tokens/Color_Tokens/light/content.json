@@ -5,7 +5,7 @@
         "value": "{color.semantic.neutral.-4}",
         "type": "color"
       },
-      "default-inverted": {
+      "default-inverse": {
         "value": "{color.semantic.neutral.+8}",
         "type": "color"
       },
@@ -21,8 +21,13 @@
         "value": "{color.semantic.neutralAlpha.+5}",
         "type": "color"
       },
+      "selected": {
+        "value": "{color.semantic.information.+3}",
+        "type": "color",
+        "description": "用于\"选中\"或\"打开状态下\"的文本，如选项、下拉展开。"
+      },
       "information": {
-        "value": "{color.semantic.information.0}",
+        "value": "{color.semantic.information.-1}",
         "type": "color",
         "description": "information 常用于 hypelink，与 brand 做区分"
       },
@@ -38,7 +43,7 @@
           "type": "color"
         }
       },
-      "warning-inverted": {
+      "warning-inverse": {
         "value": "{color.semantic.warning.-4}",
         "type": "color"
       },
@@ -55,6 +60,38 @@
         "value": "{global.purple.0}",
         "type": "color",
         "description": "品牌色暗色模式下不做变化"
+      },
+      "accent": {
+        "red": {
+          "value": "{color.semantic.negative.0}",
+          "type": "color",
+          "description": "可用于红色背景上的红色文字。"
+        },
+        "red-bolder": {
+          "value": "{color.semantic.negative.-2}",
+          "type": "color",
+          "description": "可用于红色背景上的红色文字。"
+        },
+        "orange": {
+          "value": "{global.orange.0}",
+          "type": "color",
+          "description": "可用于橘色背景上的文字。"
+        },
+        "orange-bolder": {
+          "value": "{global.orange.-2}",
+          "type": "color",
+          "description": "可用于橘色背景上的文字。"
+        },
+        "green": {
+          "value": "{global.green.0}",
+          "type": "color",
+          "description": "可用于对应背景上的文字。"
+        },
+        "green-bolder": {
+          "value": "{global.green.-3}",
+          "type": "color",
+          "description": "可用于对应背景上的文字。"
+        }
       }
     },
     "background": {
@@ -143,7 +180,7 @@
             "type": "color"
           },
           "subtle": {
-            "value": "{global.red.+2}",
+            "value": "{global.red.+1}",
             "type": "color"
           },
           "bolder": {
@@ -161,7 +198,7 @@
             "type": "color"
           },
           "subtle": {
-            "value": "{global.orange.+2}",
+            "value": "{global.orange.+1}",
             "type": "color"
           },
           "bolder": {
@@ -179,7 +216,7 @@
             "type": "color"
           },
           "subtle": {
-            "value": "{global.green.+2}",
+            "value": "{global.green.+1}",
             "type": "color"
           },
           "bolder": {
@@ -197,7 +234,7 @@
             "type": "color"
           },
           "subtle": {
-            "value": "{global.teal.+2}",
+            "value": "{global.teal.+1}",
             "type": "color"
           },
           "bolder": {
@@ -215,7 +252,7 @@
             "type": "color"
           },
           "subtle": {
-            "value": "{global.blue.+2}",
+            "value": "{global.blue.+1}",
             "type": "color"
           },
           "bolder": {
@@ -233,7 +270,7 @@
             "type": "color"
           },
           "subtle": {
-            "value": "{global.purple.+2}",
+            "value": "{global.purple.+1}",
             "type": "color"
           },
           "bolder": {
