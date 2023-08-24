@@ -104,7 +104,7 @@
         "type": "color"
       },
       "neutral": {
-        "value": "{color.semantic.neutral.0}",
+        "value": "{color.semantic.neutral.+6}",
         "type": "color",
         "strong": {
           "value": "{color.semantic.neutral.0}",
@@ -908,15 +908,15 @@
         "type": "color"
       },
       "default-bolder": {
-        "value": "{color.semantic.neutralAlpha.0}",
+        "value": "{color.semantic.neutral.+2}",
         "type": "color"
       },
       "default-inverted": {
-        "value": "{global.white.-3}",
+        "value": "{color.semantic.neutral.-4}",
         "type": "color"
       },
       "disabled": {
-        "value": "{global.white.-5}",
+        "value": "{color.semantic.neutralAlpha.+6}",
         "type": "color"
       },
       "focused": {

@@ -26,12 +26,17 @@
         "type": "color",
         "description": "information 常用于 hypelink，与 brand 做区分"
       },
+      "selected": {
+        "value": "{color.semantic.information.+5}",
+        "type": "color",
+        "description": "用于\"选中\"或\"打开状态下\"的文本，如选项、下拉展开。"
+      },
       "success": {
         "value": "{color.semantic.positive.+1}",
         "type": "color"
       },
       "warning": {
-        "value": "{color.semantic.warning.+1}",
+        "value": "{color.semantic.warning.+2}",
         "type": "color",
         "inverted": {
           "value": "{color.semantic.warning.-4}",
@@ -148,7 +153,7 @@
       },
       "subtle": {
         "neutral": {
-          "value": "{color.semantic.neutral.+7}",
+          "value": "{color.semantic.neutral.-1}",
           "type": "color"
         },
         "information": {
@@ -899,19 +904,19 @@
     },
     "border": {
       "default": {
-        "value": "{color.semantic.neutralAlpha.+5}",
+        "value": "{global.white.-8}",
         "type": "color"
       },
       "default-bolder": {
-        "value": "{color.semantic.neutralAlpha.0}",
+        "value": "{global.white.-5}",
         "type": "color"
       },
       "default-inverted": {
-        "value": "{global.white.-3}",
+        "value": "{color.semantic.neutral.-4}",
         "type": "color"
       },
       "disabled": {
-        "value": "{global.white.-5}",
+        "value": "{global.white.-10}",
         "type": "color"
       },
       "focused": {
@@ -987,12 +992,12 @@
     },
     "icon": {
       "default": {
-        "value": "{color.semantic.neutral.-4}",
+        "value": "{global.white.0}",
         "type": "color",
         "description": "通常我建议使用 inverted global 作为通用的 default 颜色"
       },
       "default-inverted": {
-        "value": "{color.semantic.neutral.+8}",
+        "value": "{color.semantic.neutral.-4}",
         "type": "color"
       },
       "subtle": {
