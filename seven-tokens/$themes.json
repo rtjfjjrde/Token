@@ -1357,8 +1357,8 @@
       "typography/font/MiSans": "enabled"
     },
     "$figmaVariableReferences": {
-      "core.size.fontRem": "f8e6308980ee9defa251fafab8827b9b2b0b6d44",
-      "core.size.fontBase": "998812ec1ee469286b787a98da55dde4a0c398f0"
+      "core.size.fontBase": "998812ec1ee469286b787a98da55dde4a0c398f0",
+      "core.size.✦fontRem": "f8e6308980ee9defa251fafab8827b9b2b0b6d44"
     },
     "$figmaCollectionId": "VariableCollectionId:639:23455",
     "$figmaModeId": "639:12",
@@ -1373,8 +1373,8 @@
       "typography/font/OPPOSans": "enabled"
     },
     "$figmaVariableReferences": {
-      "core.size.fontRem": "f8e6308980ee9defa251fafab8827b9b2b0b6d44",
-      "core.size.fontBase": "998812ec1ee469286b787a98da55dde4a0c398f0"
+      "core.size.fontBase": "998812ec1ee469286b787a98da55dde4a0c398f0",
+      "core.size.✦fontRem": "f8e6308980ee9defa251fafab8827b9b2b0b6d44"
     },
     "$figmaCollectionId": "VariableCollectionId:639:23455",
     "$figmaModeId": "639:13",

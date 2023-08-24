@@ -1,42 +1,4 @@
 {
-  "lineHeights": {
-    "0": {
-      "value": "64",
-      "type": "lineHeights"
-    },
-    "1": {
-      "value": "56",
-      "type": "lineHeights"
-    },
-    "2": {
-      "value": "44",
-      "type": "lineHeights"
-    },
-    "3": {
-      "value": "36",
-      "type": "lineHeights"
-    },
-    "4": {
-      "value": "32",
-      "type": "lineHeights"
-    },
-    "5": {
-      "value": "28",
-      "type": "lineHeights"
-    },
-    "6": {
-      "value": "24",
-      "type": "lineHeights"
-    },
-    "7": {
-      "value": "20",
-      "type": "lineHeights"
-    },
-    "8": {
-      "value": "16",
-      "type": "lineHeights"
-    }
-  },
   "fontWeights": {
     "default": {
       "value": "400",
@@ -54,7 +16,8 @@
   "letterSpacing": {
     "0": {
       "value": "-2%",
-      "type": "letterSpacing"
+      "type": "letterSpacing",
+      "description": "超大型文字使用"
     },
     "1": {
       "value": "1%",
@@ -348,7 +311,8 @@
   },
   "Inter": {
     "value": "Inter",
-    "type": "fontFamilies"
+    "type": "fontFamilies",
+    "description": "西文中相当优秀的字体"
   },
   "core": {
     "fontSize": {
@@ -448,37 +412,15 @@
       }
     },
     "size": {
-      "fontRem": {
+      "✦fontRem": {
         "value": "16",
         "type": "sizing",
         "description": "fontRem 为所有文字的 rem 基准。\n我将 size 和 fontSize 的 rem 分开处理，可以更为灵活的配置 Tokens。"
       },
       "fontBase": {
-        "value": "{core.size.fontRem} / 100",
+        "value": "{core.size.✦fontRem} / 100",
         "type": "sizing",
         "description": "rem 的固定值的方案无法保障所有的数值为整。作为对齐前端的设计方案无法两者兼得"
-      }
-    },
-    "paragraph": {
-      "zero": {
-        "value": "0",
-        "type": "paragraphSpacing"
-      },
-      "s": {
-        "value": "0.25",
-        "type": "paragraphSpacing"
-      },
-      "m": {
-        "value": ".5",
-        "type": "paragraphSpacing"
-      },
-      "l": {
-        "value": "0.75",
-        "type": "paragraphSpacing"
-      },
-      "xl": {
-        "value": "1",
-        "type": "paragraphSpacing"
       }
     }
   },
@@ -490,16 +432,18 @@
   "OPPOSans": {
     "value": "OPPOSans",
     "type": "fontFamilies",
-    "description": "opposans"
+    "description": "OPPOSans 作为备选字体，市面上公开的版本不如 MiSans 优秀。"
   },
   "semantic-fontSize": {
     "xs": {
       "value": "{core.fontSize.scaled.62}",
-      "type": "fontSizes"
+      "type": "fontSizes",
+      "description": "default caption fontsize 一般来说只用在最为次要的文字"
     },
     "s": {
       "value": "{core.fontSize.scaled.75}",
-      "type": "fontSizes"
+      "type": "fontSizes",
+      "description": "pointer、hint text，作为帮助文字的选择，或是 badge 中的文字大小"
     },
     "sm": {
       "value": "{core.fontSize.scaled.87}",
@@ -533,7 +477,7 @@
     "xxxl": {
       "value": "{core.fontSize.scaled.300}",
       "type": "fontSizes",
-      "description": "xxxl is your h1, but don't tell anyone, we want to speak in tokens not in HTML markup."
+      "description": "H1，展示性 token"
     }
   }
 }

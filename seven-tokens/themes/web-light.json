@@ -302,7 +302,7 @@
           "description": "This is basically your page gutter (in breakpoints-speak)."
         },
         "xxs": {
-          "value": "{core.dimension.25}",
+          "value": "{core.dimension.31}",
           "type": "spacing"
         },
         "xs": {
@@ -360,7 +360,7 @@
           "type": "spacing"
         },
         "xs": {
-          "value": "{core.dimension.25}",
+          "value": "{core.dimension.31}",
           "type": "spacing"
         },
         "s": {
@@ -416,7 +416,7 @@
           "type": "spacing"
         },
         "s": {
-          "value": "{core.dimension.25}",
+          "value": "{core.dimension.31}",
           "type": "spacing"
         },
         "m": {

@@ -432,6 +432,60 @@
         "type": "color"
       }
     },
+    "blued": {
+      "0": {
+        "value": "#3062d4",
+        "type": "color"
+      },
+      "-4": {
+        "value": "#05205e",
+        "type": "color"
+      },
+      "-3": {
+        "value": "#113997",
+        "type": "color"
+      },
+      "-2": {
+        "value": "#1e50c0",
+        "type": "color"
+      },
+      "-1": {
+        "value": "#2759cd",
+        "type": "color"
+      },
+      "+1": {
+        "value": "#6792f4",
+        "type": "color"
+      },
+      "+2": {
+        "value": "#8db0fb",
+        "type": "color"
+      },
+      "+3": {
+        "value": "#cdddff",
+        "type": "color"
+      },
+      "+4": {
+        "value": "#d7e4ff",
+        "type": "color"
+      },
+      "+5": {
+        "value": "#e5eeff",
+        "type": "color"
+      },
+      "+6": {
+        "value": "#edf2ff",
+        "type": "color"
+      },
+      "+7": {
+        "value": "#f5f8ff",
+        "type": "color"
+      },
+      "+8": {
+        "value": "#fafbff",
+        "type": "color"
+      }
+    },
     "green": {
       "0": {
         "value": "#1d7c4d",
@@ -1079,60 +1133,6 @@
         "value": "#fbfefb",
         "type": "color"
       }
-    },
-    "blued": {
-      "0": {
-        "value": "#3062d4",
-        "type": "color"
-      },
-      "-4": {
-        "value": "#05205e",
-        "type": "color"
-      },
-      "-3": {
-        "value": "#113997",
-        "type": "color"
-      },
-      "-2": {
-        "value": "#1e50c0",
-        "type": "color"
-      },
-      "-1": {
-        "value": "#2759cd",
-        "type": "color"
-      },
-      "+1": {
-        "value": "#6792f4",
-        "type": "color"
-      },
-      "+2": {
-        "value": "#8db0fb",
-        "type": "color"
-      },
-      "+3": {
-        "value": "#cdddff",
-        "type": "color"
-      },
-      "+4": {
-        "value": "#d7e4ff",
-        "type": "color"
-      },
-      "+5": {
-        "value": "#e5eeff",
-        "type": "color"
-      },
-      "+6": {
-        "value": "#edf2ff",
-        "type": "color"
-      },
-      "+7": {
-        "value": "#f5f8ff",
-        "type": "color"
-      },
-      "+8": {
-        "value": "#fafbff",
-        "type": "color"
-      }
     }
   },
   "core": {
@@ -1233,19 +1233,20 @@
         "type": "borderRadius"
       },
       "baseRadius": {
-        "value": "{core.size.rem} / 100",
+        "value": "{core.size.✦rem} / 100",
         "type": "borderRadius"
       }
     },
     "size": {
-      "rem": {
+      "✦rem": {
         "value": "16",
         "type": "sizing",
         "description": "size.rem 是所有与尺寸相关的标记（size、space、padding 等）的基本比例。\n默认值为 1rem=16px，改变它，即改变所有尺寸相关内容"
       },
       "base": {
-        "value": "{core.size.rem} / 100",
-        "type": "sizing"
+        "value": "{core.size.✦rem} / 100",
+        "type": "sizing",
+        "description": "整数优化"
       }
     },
     "line-height": {
@@ -1302,15 +1303,27 @@
         "type": "dimension"
       },
       "12": {
-        "value": "{core.size.base} * 12.5",
+        "value": "{core.size.base} *  6.25*2",
+        "type": "dimension"
+      },
+      "19": {
+        "value": "{core.size.base} *  6.25*3",
         "type": "dimension"
       },
       "25": {
-        "value": "{core.size.base} * 25",
+        "value": "{core.size.base} *  6.25*4",
+        "type": "dimension"
+      },
+      "31": {
+        "value": "{core.size.base} *  6.25*5",
         "type": "dimension"
       },
       "37": {
-        "value": "{core.size.base} * 37.5",
+        "value": "{core.size.base} *  6.25*6",
+        "type": "dimension"
+      },
+      "43": {
+        "value": "{core.size.base} *  6.25*7",
         "type": "dimension"
       },
       "50": {
@@ -1427,19 +1440,19 @@
       }
     }
   },
-  "Hidden": {
+  "hidden": {
     "value": "0",
     "type": "opacity"
   },
-  "Disabled": {
+  "disabled": {
     "value": ".35",
     "type": "opacity"
   },
-  "Placeholder": {
+  "placeholder": {
     "value": "40%",
     "type": "opacity"
   },
-  "SecondaryInfo": {
+  "secondary-info": {
     "value": "60%",
     "type": "opacity"
   },
@@ -1451,15 +1464,15 @@
     "value": "0",
     "type": "borderRadius"
   },
-  "Regular": {
+  "regular": {
     "value": "400",
     "type": "fontWeights"
   },
-  "Medium": {
+  "medium": {
     "value": "500",
     "type": "fontWeights"
   },
-  "Bold": {
+  "bold": {
     "value": "700",
     "type": "fontWeights"
   },

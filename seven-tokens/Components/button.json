@@ -41,7 +41,7 @@
       "single": {
         "value": {
           "horizontalPadding": "{core.dimension.50}",
-          "borderRadius": "{core.dimension.25}",
+          "borderRadius": "{core.dimension.31}",
           "itemSpacing": "{core.radius.50}",
           "verticalPadding": "{core.dimension.50}"
         },
@@ -50,7 +50,7 @@
       "default-double": {
         "value": {
           "horizontalPadding": "{core.dimension.75}",
-          "borderRadius": "{core.dimension.25}",
+          "borderRadius": "{core.dimension.31}",
           "itemSpacing": "{core.radius.50}",
           "verticalPadding": "{core.dimension.50}"
         },
