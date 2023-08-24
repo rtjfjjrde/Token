@@ -94,6 +94,10 @@
         "value": "{color.semantic.neutral.+8}",
         "type": "color"
       },
+      "default-max": {
+        "value": "{global.white.0}",
+        "type": "color"
+      },
       "neutral": {
         "value": "{color.semantic.neutral.0}",
         "type": "color",
@@ -135,7 +139,7 @@
         "type": "color"
       },
       "dimmer": {
-        "value": "{color.semantic.neutralAlpha.0}",
+        "value": "{color.semantic.neutralAlpha.+5}",
         "type": "color"
       },
       "brand": {
