@@ -4,13 +4,13 @@
     "typography/typo",
     "typography/font/MiSans",
     "typography/font/OPPOSans",
-    "Color_Tokens/light/content",
-    "Color_Tokens/dark/content",
+    "themes/light-contents",
+    "themes/dark-contents",
+    "themes/web",
     "Color_Tokens/semantic",
     "Color_Tokens/discover",
     "effects",
     "Components/button",
-    "Components/tag",
-    "themes/web-light"
+    "Components/tag"
   ]
 }
