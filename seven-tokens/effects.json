@@ -1,10 +1,10 @@
 {
-  "Elevations": {
-    "Stroked": {
-      "Depth+4": {
+  "elevations": {
+    "stroked": {
+      "depth+4": {
         "value": [
           {
-            "color": "{Global.Grey.grey.-4}14",
+            "color": "{global.grey.-4}14",
             "type": "dropShadow",
             "x": "0",
             "y": "16",
@@ -12,7 +12,7 @@
             "spread": "-6"
           },
           {
-            "color": "{Global.Grey.grey.-4}0a",
+            "color": "{global.grey.-4}0a",
             "type": "dropShadow",
             "x": "0",
             "y": "0",
@@ -20,7 +20,7 @@
             "spread": "-1"
           },
           {
-            "color": "{Global.Grey.grey.-4}14",
+            "color": "{global.grey.-4}14",
             "type": "dropShadow",
             "x": "0",
             "y": "0",
@@ -30,10 +30,10 @@
         ],
         "type": "boxShadow"
       },
-      "Depth+3": {
+      "depth+3": {
         "value": [
           {
-            "color": "{Global.Grey.grey.-4}14",
+            "color": "{global.grey.-4}14",
             "type": "dropShadow",
             "x": "0",
             "y": "8",
@@ -41,7 +41,7 @@
             "spread": "0"
           },
           {
-            "color": "{Global.Grey.grey.-4}14",
+            "color": "{global.grey.-4}14",
             "type": "dropShadow",
             "x": "0",
             "y": "0",
@@ -51,10 +51,10 @@
         ],
         "type": "boxShadow"
       },
-      "Depth+2": {
+      "depth+2": {
         "value": [
           {
-            "color": "{Global.Grey.grey.-4}1a",
+            "color": "{global.grey.-4}1a",
             "type": "dropShadow",
             "x": "0",
             "y": "2",
@@ -62,7 +62,7 @@
             "spread": "-1"
           },
           {
-            "color": "{Global.Grey.grey.-4}0a",
+            "color": "{global.grey.-4}0a",
             "type": "dropShadow",
             "x": "0",
             "y": "2",
@@ -70,7 +70,7 @@
             "spread": "-1"
           },
           {
-            "color": "{Global.Grey.grey.-4}14",
+            "color": "{global.grey.-4}14",
             "type": "dropShadow",
             "x": "0",
             "y": "0",
@@ -80,10 +80,10 @@
         ],
         "type": "boxShadow"
       },
-      "Depth+1": {
+      "depth+1": {
         "value": [
           {
-            "color": "{Global.Grey.grey.-4}14",
+            "color": "{global.grey.-4}14",
             "type": "dropShadow",
             "x": "0",
             "y": "2",
@@ -91,7 +91,7 @@
             "spread": "-2"
           },
           {
-            "color": "{Global.Grey.grey.-4}14",
+            "color": "{global.grey.-4}14",
             "type": "dropShadow",
             "x": "0",
             "y": "2",
@@ -99,7 +99,20 @@
             "spread": "0"
           },
           {
-            "color": "{Global.Grey.grey.-4}14",
+            "color": "{global.grey.-4}14",
+            "type": "dropShadow",
+            "x": "0",
+            "y": "0",
+            "blur": "0",
+            "spread": "1"
+          }
+        ],
+        "type": "boxShadow"
+      },
+      "highlight-border": {
+        "value": [
+          {
+            "color": "{color.border.default}",
             "type": "dropShadow",
             "x": "0",
             "y": "0",
@@ -110,11 +123,11 @@
         "type": "boxShadow"
       }
     },
-    "Unstroked": {
-      "Depth+4": {
+    "unstroked": {
+      "depth+4": {
         "value": [
           {
-            "color": "{Global.Grey.grey.-4}29",
+            "color": "{global.grey.-4}29",
             "type": "dropShadow",
             "x": "0",
             "y": "16",
@@ -122,7 +135,7 @@
             "spread": "-6"
           },
           {
-            "color": "{Global.Grey.grey.-4}0a",
+            "color": "{global.grey.-4}0a",
             "type": "dropShadow",
             "x": "0",
             "y": "0",
@@ -132,21 +145,21 @@
         ],
         "type": "boxShadow"
       },
-      "Depth+3": {
+      "depth+3": {
         "value": {
           "x": "0",
           "y": "8",
           "blur": "16",
           "spread": "0",
-          "color": "{Global.Grey.grey.-4}1f",
+          "color": "{global.grey.-4}1f",
           "type": "dropShadow"
         },
         "type": "boxShadow"
       },
-      "Depth+2": {
+      "depth+2": {
         "value": [
           {
-            "color": "{Global.Grey.grey.-4}1a",
+            "color": "{global.grey.-4}1a",
             "type": "dropShadow",
             "x": "0",
             "y": "2",
@@ -154,7 +167,7 @@
             "spread": "-1"
           },
           {
-            "color": "{Global.Grey.grey.-4}14",
+            "color": "{global.grey.-4}14",
             "type": "dropShadow",
             "x": "0",
             "y": "2",
@@ -164,24 +177,24 @@
         ],
         "type": "boxShadow"
       },
-      "Depth+1": {
+      "depth+1": {
         "value": {
           "x": "0",
           "y": "1",
           "blur": "2",
           "spread": "0",
-          "color": "{Global.Grey.grey.-4}1f",
+          "color": "{global.grey.-4}1f",
           "type": "dropShadow"
         },
         "type": "boxShadow"
       }
     }
   },
-  "Focus": {
-    "Default Focus + 1px White Offset": {
+  "focus": {
+    "default Focus + 1px White Offset": {
       "value": [
         {
-          "color": "{Global.White.white.0}",
+          "color": "{color.background.default}",
           "type": "dropShadow",
           "x": "0",
           "y": "0",
@@ -199,7 +212,7 @@
       ],
       "type": "boxShadow"
     },
-    "Default Focus": {
+    "default Focus": {
       "value": {
         "x": "0",
         "y": "0",
@@ -209,42 +222,21 @@
         "type": "dropShadow"
       },
       "type": "boxShadow"
-    },
-    "Default Focus + 1px Dark Offset": {
-      "value": [
-        {
-          "color": "{color.background.inverted}",
-          "type": "dropShadow",
-          "x": "0",
-          "y": "0",
-          "blur": "0",
-          "spread": "1"
-        },
-        {
-          "color": "{color.interaction.Focus.default}",
-          "type": "dropShadow",
-          "x": "0",
-          "y": "0",
-          "blur": "0",
-          "spread": "3"
-        }
-      ],
-      "type": "boxShadow"
     }
   },
-  "Effect": {
-    "White Offset": {
+  "effect": {
+    "white Offset": {
       "value": {
         "x": "0",
         "y": "0",
         "blur": "0",
         "spread": "2",
-        "color": "{Global.White.white.0}",
+        "color": "{global.white.0}",
         "type": "dropShadow"
       },
       "type": "boxShadow"
     },
-    "Inner Default Border": {
+    "inner default Border": {
       "value": {
         "x": "0",
         "y": "0",
