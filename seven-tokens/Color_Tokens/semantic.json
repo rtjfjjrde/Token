@@ -3,379 +3,379 @@
     "semantic": {
       "brand": {
         "0": {
-          "value": "{Global.Blue.blue.0}",
+          "value": "{global.blue.0}",
           "type": "color"
         },
         "-4": {
-          "value": "{Global.Blue.blue.-4}",
+          "value": "{global.blue.-4}",
           "type": "color"
         },
         "-3": {
-          "value": "{Global.Blue.blue.-3}",
+          "value": "{global.blue.-3}",
           "type": "color"
         },
         "-2": {
-          "value": "{Global.Blue.blue.-2}",
+          "value": "{global.blue.-2}",
           "type": "color"
         },
         "-1": {
-          "value": "{Global.Blue.blue.-1}",
+          "value": "{global.blue.-1}",
           "type": "color"
         },
         "+1": {
-          "value": "{Global.Blue.blue.+1}",
+          "value": "{global.blue.+1}",
           "type": "color"
         },
         "+2": {
-          "value": "{Global.Blue.blue.+2}",
+          "value": "{global.blue.+2}",
           "type": "color"
         },
         "+3": {
-          "value": "{Global.Blue.blue.+3}",
+          "value": "{global.blue.+3}",
           "type": "color"
         },
         "+4": {
-          "value": "{Global.Blue.blue.+4}",
+          "value": "{global.blue.+4}",
           "type": "color"
         },
         "+5": {
-          "value": "{Global.Blue.blue.+5}",
+          "value": "{global.blue.+5}",
           "type": "color"
         },
         "+6": {
-          "value": "{Global.Blue.blue.+6}",
+          "value": "{global.blue.+6}",
           "type": "color"
         },
         "+7": {
-          "value": "{Global.Blue.blue.+7}",
+          "value": "{global.blue.+7}",
           "type": "color"
         },
         "+8": {
-          "value": "{Global.Blue.blue.+8}",
+          "value": "{global.blue.+8}",
           "type": "color"
         }
       },
       "neutral": {
         "0": {
-          "value": "{Global.Grey.grey.0}",
+          "value": "{global.grey.0}",
           "type": "color"
         },
         "-4": {
-          "value": "{Global.Grey.grey.-4}",
+          "value": "{global.grey.-4}",
           "type": "color"
         },
         "-3": {
-          "value": "{Global.Grey.grey.-3}",
+          "value": "{global.grey.-3}",
           "type": "color"
         },
         "-2": {
-          "value": "{Global.Grey.grey.-2}",
+          "value": "{global.grey.-2}",
           "type": "color"
         },
         "-1": {
-          "value": "{Global.Grey.grey.-1}",
+          "value": "{global.grey.-1}",
           "type": "color"
         },
         "+1": {
-          "value": "{Global.Grey.grey.+1}",
+          "value": "{global.grey.+1}",
           "type": "color"
         },
         "+2": {
-          "value": "{Global.Grey.grey.+2}",
+          "value": "{global.grey.+2}",
           "type": "color"
         },
         "+3": {
-          "value": "{Global.Grey.grey.+3}",
+          "value": "{global.grey.+3}",
           "type": "color"
         },
         "+4": {
-          "value": "{Global.Grey.grey.+4}",
+          "value": "{global.grey.+4}",
           "type": "color"
         },
         "+5": {
-          "value": "{Global.Grey.grey.+5}",
+          "value": "{global.grey.+5}",
           "type": "color"
         },
         "+6": {
-          "value": "{Global.Grey.grey.+6}",
+          "value": "{global.grey.+6}",
           "type": "color"
         },
         "+7": {
-          "value": "{Global.Grey.grey.+7}",
+          "value": "{global.grey.+7}",
           "type": "color"
         },
         "+8": {
-          "value": "{Global.Grey.grey.+8}",
+          "value": "{global.grey.+8}",
           "type": "color"
         }
       },
-      "neutralA": {
+      "neutralAlpha": {
         "0": {
-          "value": "{Global.Grey.greyA.0}",
+          "value": "{global.greyAlpha.0}",
           "type": "color"
         },
         "-4": {
-          "value": "{Global.Grey.greyA.-4}",
+          "value": "{global.greyAlpha.-4}",
           "type": "color"
         },
         "-3": {
-          "value": "{Global.Grey.greyA.-3}",
+          "value": "{global.greyAlpha.-3}",
           "type": "color"
         },
         "-2": {
-          "value": "{Global.Grey.greyA.-2}",
+          "value": "{global.greyAlpha.-2}",
           "type": "color"
         },
         "-1": {
-          "value": "{Global.Grey.greyA.-1}",
+          "value": "{global.greyAlpha.-1}",
           "type": "color"
         },
         "+1": {
-          "value": "{Global.Grey.greyA.+1}",
+          "value": "{global.greyAlpha.+1}",
           "type": "color"
         },
         "+2": {
-          "value": "{Global.Grey.greyA.+2}",
+          "value": "{global.greyAlpha.+2}",
           "type": "color"
         },
         "+3": {
-          "value": "{Global.Grey.greyA.+3}",
+          "value": "{global.greyAlpha.+3}",
           "type": "color"
         },
         "+4": {
-          "value": "{Global.Grey.greyA.+4}",
+          "value": "{global.greyAlpha.+4}",
           "type": "color"
         },
         "+5": {
-          "value": "{Global.Grey.greyA.+5}",
+          "value": "{global.greyAlpha.+5}",
           "type": "color"
         },
         "+6": {
-          "value": "{Global.Grey.greyA.+6}",
+          "value": "{global.greyAlpha.+6}",
           "type": "color"
         },
         "+7": {
-          "value": "{Global.Grey.greyA.+7}",
+          "value": "{global.greyAlpha.+7}",
           "type": "color"
         },
         "+8": {
-          "value": "{Global.Grey.greyA.+8}",
+          "value": "{global.greyAlpha.+8}",
           "type": "color"
         }
       },
-      "informative": {
+      "information": {
         "0": {
-          "value": "{Global.Blue.blue.0}",
+          "value": "{global.blue.0}",
           "type": "color"
         },
         "-4": {
-          "value": "{Global.Blue.blue.-4}",
+          "value": "{global.blue.-4}",
           "type": "color"
         },
         "-3": {
-          "value": "{Global.Blue.blue.-3}",
+          "value": "{global.blue.-3}",
           "type": "color"
         },
         "-2": {
-          "value": "{Global.Blue.blue.-2}",
+          "value": "{global.blue.-2}",
           "type": "color"
         },
         "-1": {
-          "value": "{Global.Blue.blue.-1}",
+          "value": "{global.blue.-1}",
           "type": "color"
         },
         "+1": {
-          "value": "{Global.Blue.blue.+1}",
+          "value": "{global.blue.+1}",
           "type": "color"
         },
         "+2": {
-          "value": "{Global.Blue.blue.+2}",
+          "value": "{global.blue.+2}",
           "type": "color"
         },
         "+3": {
-          "value": "{Global.Blue.blue.+3}",
+          "value": "{global.blue.+3}",
           "type": "color"
         },
         "+4": {
-          "value": "{Global.Blue.blue.+4}",
+          "value": "{global.blue.+4}",
           "type": "color"
         },
         "+5": {
-          "value": "{Global.Blue.blue.+5}",
+          "value": "{global.blue.+5}",
           "type": "color"
         },
         "+6": {
-          "value": "{Global.Blue.blue.+6}",
+          "value": "{global.blue.+6}",
           "type": "color"
         },
         "+7": {
-          "value": "{Global.Blue.blue.+7}",
+          "value": "{global.blue.+7}",
           "type": "color"
         },
         "+8": {
-          "value": "{Global.Blue.blue.+8}",
+          "value": "{global.blue.+8}",
           "type": "color"
         }
       },
       "positive": {
         "0": {
-          "value": "{Global.Green.green.0}",
+          "value": "{global.green.0}",
           "type": "color"
         },
         "-4": {
-          "value": "{Global.Green.green.-4}",
+          "value": "{global.green.-4}",
           "type": "color"
         },
         "-3": {
-          "value": "{Global.Green.green.-3}",
+          "value": "{global.green.-3}",
           "type": "color"
         },
         "-2": {
-          "value": "{Global.Green.green.-2}",
+          "value": "{global.green.-2}",
           "type": "color"
         },
         "-1": {
-          "value": "{Global.Green.green.-1}",
+          "value": "{global.green.-1}",
           "type": "color"
         },
         "+1": {
-          "value": "{Global.Green.green.+1}",
+          "value": "{global.green.+1}",
           "type": "color"
         },
         "+2": {
-          "value": "{Global.Green.green.+2}",
+          "value": "{global.green.+2}",
           "type": "color"
         },
         "+3": {
-          "value": "{Global.Green.green.+3}",
+          "value": "{global.green.+3}",
           "type": "color"
         },
         "+4": {
-          "value": "{Global.Green.green.+4}",
+          "value": "{global.green.+4}",
           "type": "color"
         },
         "+5": {
-          "value": "{Global.Green.green.+5}",
+          "value": "{global.green.+5}",
           "type": "color"
         },
         "+6": {
-          "value": "{Global.Green.green.+6}",
+          "value": "{global.green.+6}",
           "type": "color"
         },
         "+7": {
-          "value": "{Global.Green.green.+7}",
+          "value": "{global.green.+7}",
           "type": "color"
         },
         "+8": {
-          "value": "{Global.Green.green.+8}",
+          "value": "{global.green.+8}",
           "type": "color"
         }
       },
       "warning": {
         "0": {
-          "value": "{Global.Orange.orange.0}",
+          "value": "{global.orange.0}",
           "type": "color"
         },
         "-4": {
-          "value": "{Global.Orange.orange.-4}",
+          "value": "{global.orange.-4}",
           "type": "color"
         },
         "-3": {
-          "value": "{Global.Orange.orange.-3}",
+          "value": "{global.orange.-3}",
           "type": "color"
         },
         "-2": {
-          "value": "{Global.Orange.orange.-2}",
+          "value": "{global.orange.-2}",
           "type": "color"
         },
         "-1": {
-          "value": "{Global.Orange.orange.-1}",
+          "value": "{global.orange.-1}",
           "type": "color"
         },
         "+1": {
-          "value": "{Global.Orange.orange.+1}",
+          "value": "{global.orange.+1}",
           "type": "color"
         },
         "+2": {
-          "value": "{Global.Orange.orange.+2}",
+          "value": "{global.orange.+2}",
           "type": "color"
         },
         "+3": {
-          "value": "{Global.Orange.orange.+3}",
+          "value": "{global.orange.+3}",
           "type": "color"
         },
         "+4": {
-          "value": "{Global.Orange.orange.+4}",
+          "value": "{global.orange.+4}",
           "type": "color"
         },
         "+5": {
-          "value": "{Global.Orange.orange.+5}",
+          "value": "{global.orange.+5}",
           "type": "color"
         },
         "+6": {
-          "value": "{Global.Orange.orange.+6}",
+          "value": "{global.orange.+6}",
           "type": "color"
         },
         "+7": {
-          "value": "{Global.Orange.orange.+7}",
+          "value": "{global.orange.+7}",
           "type": "color"
         },
         "+8": {
-          "value": "{Global.Orange.orange.+8}",
+          "value": "{global.orange.+8}",
           "type": "color"
         }
       },
       "negative": {
         "0": {
-          "value": "{Global.Red.red.0}",
+          "value": "{global.red.0}",
           "type": "color"
         },
         "-4": {
-          "value": "{Global.Red.red.-4}",
+          "value": "{global.red.-4}",
           "type": "color"
         },
         "-3": {
-          "value": "{Global.Red.red.-3}",
+          "value": "{global.red.-3}",
           "type": "color"
         },
         "-2": {
-          "value": "{Global.Red.red.-2}",
+          "value": "{global.red.-2}",
           "type": "color"
         },
         "-1": {
-          "value": "{Global.Red.red.-1}",
+          "value": "{global.red.-1}",
           "type": "color"
         },
         "+1": {
-          "value": "{Global.Red.red.+1}",
+          "value": "{global.red.+1}",
           "type": "color"
         },
         "+2": {
-          "value": "{Global.Red.red.+2}",
+          "value": "{global.red.+2}",
           "type": "color"
         },
         "+3": {
-          "value": "{Global.Red.red.+3}",
+          "value": "{global.red.+3}",
           "type": "color"
         },
         "+4": {
-          "value": "{Global.Red.red.+4}",
+          "value": "{global.red.+4}",
           "type": "color"
         },
         "+5": {
-          "value": "{Global.Red.red.+5}",
+          "value": "{global.red.+5}",
           "type": "color"
         },
         "+6": {
-          "value": "{Global.Red.red.+6}",
+          "value": "{global.red.+6}",
           "type": "color"
         },
         "+7": {
-          "value": "{Global.Red.red.+7}",
+          "value": "{global.red.+7}",
           "type": "color"
         },
         "+8": {
-          "value": "{Global.Red.red.+8}",
+          "value": "{global.red.+8}",
           "type": "color"
         }
       }
