@@ -6,10 +6,7 @@
     "selectedTokenSets": {
       "core": "enabled",
       "Color_Tokens/semantic": "enabled",
-      "Color_Tokens/discover": "enabled",
-      "themes/dark-contents": "disabled",
-      "themes/light-contents": "disabled",
-      "themes/web": "disabled"
+      "Color_Tokens/discover": "enabled"
     },
     "$figmaCollectionId": "VariableCollectionId:727:1271",
     "$figmaModeId": "727:6",
@@ -822,7 +819,6 @@
       "Components/button": "enabled",
       "Components/tag": "enabled",
       "effects": "enabled",
-      "themes/dark-contents": "disabled",
       "themes/light-contents": "enabled",
       "themes/web": "enabled"
     },
@@ -1131,7 +1127,6 @@
       "Components/tag": "enabled",
       "effects": "enabled",
       "themes/dark-contents": "enabled",
-      "themes/light-contents": "disabled",
       "themes/web": "enabled"
     },
     "$figmaCollectionId": "VariableCollectionId:727:1779",
@@ -1461,10 +1456,7 @@
     },
     "selectedTokenSets": {
       "typography/typo": "enabled",
-      "typography/font/MiSans": "enabled",
-      "themes/dark-contents": "disabled",
-      "themes/light-contents": "disabled",
-      "themes/web": "disabled"
+      "typography/font/MiSans": "enabled"
     },
     "$figmaVariableReferences": {
       "core.size.✦fontRem": "0738f2d6a0d24c9ebe9014893096f0fc2e620815",
@@ -1480,10 +1472,7 @@
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "typography/typo": "enabled",
-      "typography/font/OPPOSans": "enabled",
-      "themes/dark-contents": "disabled",
-      "themes/light-contents": "disabled",
-      "themes/web": "disabled"
+      "typography/font/OPPOSans": "enabled"
     },
     "$figmaVariableReferences": {
       "core.size.✦fontRem": "0738f2d6a0d24c9ebe9014893096f0fc2e620815",
