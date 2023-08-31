@@ -57,5 +57,14 @@
         "type": "composition"
       }
     }
+  },
+  "highlight": {
+    "value": {
+      "borderRadius": "{base.border-radius.container.xsINNER}",
+      "boxShadow": "{elevations.stroked.highlight-border}",
+      "fill": "#ffffff00",
+      "borderColor": "linear-gradient(180deg, {global.white.-3} 0%, {global.white.0}00 65%)"
+    },
+    "type": "composition"
   }
 }

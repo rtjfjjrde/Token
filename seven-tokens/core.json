@@ -378,6 +378,60 @@
         "type": "color"
       }
     },
+    "black": {
+      "0": {
+        "value": "#000000",
+        "type": "color"
+      },
+      "-12": {
+        "value": "rgba(0,0,0,0.02)",
+        "type": "color"
+      },
+      "-11": {
+        "value": "rgba(0,0,0,0.05)",
+        "type": "color"
+      },
+      "-10": {
+        "value": "rgba(0,0,0,0.07)",
+        "type": "color"
+      },
+      "-9": {
+        "value": "rgba(0,0,0,0.1)",
+        "type": "color"
+      },
+      "-8": {
+        "value": "rgba(0,0,0,0.14)",
+        "type": "color"
+      },
+      "-7": {
+        "value": "rgba(0,0,0,0.2)",
+        "type": "color"
+      },
+      "-6": {
+        "value": "rgba(0,0,0,0.32)",
+        "type": "color"
+      },
+      "-5": {
+        "value": "rgba(0,0,0,0.48)",
+        "type": "color"
+      },
+      "-4": {
+        "value": "rgba(0,0,0,0.65)",
+        "type": "color"
+      },
+      "-3": {
+        "value": "rgba(0,0,0,0.72)",
+        "type": "color"
+      },
+      "-2": {
+        "value": "rgba(0,0,0,0.80)",
+        "type": "color"
+      },
+      "-1": {
+        "value": "rgba(0,0,0,0.9)",
+        "type": "color"
+      }
+    },
     "blue": {
       "0": {
         "value": "#0D8AFD",

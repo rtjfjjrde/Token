@@ -402,6 +402,180 @@
         }
       }
     },
+    "border": {
+      "default": {
+        "value": "{color.semantic.neutralAlpha.+5}",
+        "type": "color"
+      },
+      "default-bolder": {
+        "value": "{color.semantic.neutral.+2}",
+        "type": "color"
+      },
+      "default-inverted": {
+        "value": "{color.semantic.neutral.-4}",
+        "type": "color"
+      },
+      "disabled": {
+        "value": "{color.semantic.neutralAlpha.+6}",
+        "type": "color"
+      },
+      "focused": {
+        "value": "{color.semantic.brand.+2}",
+        "type": "color"
+      },
+      "selected": {
+        "value": "{color.semantic.brand.0}",
+        "type": "color"
+      },
+      "input": {
+        "value": "{color.semantic.neutralAlpha.+5}",
+        "type": "color"
+      },
+      "information": {
+        "value": "{color.semantic.information.0}",
+        "type": "color"
+      },
+      "success": {
+        "value": "{color.semantic.positive.0}",
+        "type": "color"
+      },
+      "warning": {
+        "value": "{color.semantic.warning.0}",
+        "type": "color"
+      },
+      "danger": {
+        "value": "{color.semantic.negative.0}",
+        "type": "color"
+      },
+      "accent": {
+        "red": {
+          "value": "{color.semantic.negative.0}",
+          "type": "color",
+          "description": "可用于红色背景上的红色文字。"
+        },
+        "orange": {
+          "value": "{global.orange.0}",
+          "type": "color",
+          "description": "可用于橘色背景上的文字。"
+        },
+        "green": {
+          "value": "{global.green.+1}",
+          "type": "color",
+          "description": "可用于对应背景上的文字。"
+        },
+        "teal": {
+          "value": "{global.teal.0}",
+          "type": "color",
+          "description": "可用于对应背景上的文字。"
+        },
+        "purple": {
+          "value": "{global.purple.0}",
+          "type": "color",
+          "description": "可用于对应背景上的文字。"
+        },
+        "neutral": {
+          "value": "{global.neutral.0}",
+          "type": "color",
+          "description": "可用于对应背景上的文字。"
+        }
+      }
+    },
+    "link": {
+      "default": {
+        "value": "{color.semantic.information.0}",
+        "type": "color"
+      },
+      "bolder": {
+        "value": "{color.semantic.information.-2}",
+        "type": "color"
+      }
+    },
+    "icon": {
+      "default": {
+        "value": "{color.semantic.neutral.-4}",
+        "type": "color",
+        "description": "通常我建议使用 inverted global 作为通用的 default 颜色"
+      },
+      "default-inverted": {
+        "value": "{color.semantic.neutral.+8}",
+        "type": "color"
+      },
+      "subtle": {
+        "value": "{color.semantic.neutral.+1}",
+        "type": "color"
+      },
+      "disabled": {
+        "value": "{color.semantic.neutral.+3}",
+        "type": "color"
+      },
+      "information": {
+        "value": "{color.semantic.information.0}",
+        "type": "color",
+        "description": "information 常用于 hypelink，与 brand 做区分"
+      },
+      "success": {
+        "value": "{color.semantic.positive.0}",
+        "type": "color"
+      },
+      "warning": {
+        "value": "{color.semantic.warning.0}",
+        "type": "color",
+        "inverted": {
+          "value": "{color.semantic.warning.-4}",
+          "type": "color"
+        }
+      },
+      "warning-inverted": {
+        "value": "{color.semantic.warning.-4}",
+        "type": "color"
+      },
+      "danger": {
+        "value": "{color.semantic.negative.0}",
+        "type": "color"
+      },
+      "brand": {
+        "value": "{color.semantic.brand.0}",
+        "type": "color",
+        "description": "品牌色暗色模式下不做变化"
+      },
+      "discover": {
+        "value": "{color.discover.purple.Default}",
+        "type": "color",
+        "description": "品牌色暗色模式下不做变化"
+      },
+      "accent": {
+        "red": {
+          "value": "{color.semantic.negative.0}",
+          "type": "color",
+          "description": "可用于红色背景上的红色文字。"
+        },
+        "red-bolder": {
+          "value": "{color.semantic.negative.-2}",
+          "type": "color",
+          "description": "可用于红色背景上的红色文字。"
+        },
+        "orange": {
+          "value": "{global.orange.0}",
+          "type": "color",
+          "description": "可用于橘色背景上的文字。"
+        },
+        "orange-bolder": {
+          "value": "{global.orange.-2}",
+          "type": "color",
+          "description": "可用于橘色背景上的文字。"
+        },
+        "green": {
+          "value": "{global.green.+1}",
+          "type": "color",
+          "description": "可用于对应背景上的文字。"
+        },
+        "green-bolder": {
+          "value": "{global.green.-2}",
+          "type": "color",
+          "description": "可用于对应背景上的文字。"
+        }
+      }
+    },
     "interaction": {
       "modal": {
         "value": "{color.background.default}",
@@ -681,7 +855,7 @@
           "type": "color"
         },
         "hover": {
-          "value": "{color.semantic.brand.-2}",
+          "value": "{color.semantic.brand.-1}",
           "type": "color"
         },
         "active": {
@@ -899,180 +1073,6 @@
         "selected": {
           "value": "{color.action.outline.hover}",
           "type": "color"
-        }
-      }
-    },
-    "border": {
-      "default": {
-        "value": "{color.semantic.neutralAlpha.+5}",
-        "type": "color"
-      },
-      "default-bolder": {
-        "value": "{color.semantic.neutral.+2}",
-        "type": "color"
-      },
-      "default-inverted": {
-        "value": "{color.semantic.neutral.-4}",
-        "type": "color"
-      },
-      "disabled": {
-        "value": "{color.semantic.neutralAlpha.+6}",
-        "type": "color"
-      },
-      "focused": {
-        "value": "{color.semantic.brand.+2}",
-        "type": "color"
-      },
-      "selected": {
-        "value": "{color.semantic.brand.0}",
-        "type": "color"
-      },
-      "input": {
-        "value": "{color.semantic.neutralAlpha.+5}",
-        "type": "color"
-      },
-      "information": {
-        "value": "{color.semantic.information.0}",
-        "type": "color"
-      },
-      "success": {
-        "value": "{color.semantic.positive.0}",
-        "type": "color"
-      },
-      "warning": {
-        "value": "{color.semantic.warning.0}",
-        "type": "color"
-      },
-      "danger": {
-        "value": "{color.semantic.negative.0}",
-        "type": "color"
-      },
-      "accent": {
-        "red": {
-          "value": "{color.semantic.negative.0}",
-          "type": "color",
-          "description": "可用于红色背景上的红色文字。"
-        },
-        "orange": {
-          "value": "{global.orange.0}",
-          "type": "color",
-          "description": "可用于橘色背景上的文字。"
-        },
-        "green": {
-          "value": "{global.green.+1}",
-          "type": "color",
-          "description": "可用于对应背景上的文字。"
-        },
-        "teal": {
-          "value": "{global.teal.0}",
-          "type": "color",
-          "description": "可用于对应背景上的文字。"
-        },
-        "purple": {
-          "value": "{global.purple.0}",
-          "type": "color",
-          "description": "可用于对应背景上的文字。"
-        },
-        "neutral": {
-          "value": "{global.neutral.0}",
-          "type": "color",
-          "description": "可用于对应背景上的文字。"
-        }
-      }
-    },
-    "link": {
-      "default": {
-        "value": "{color.semantic.information.0}",
-        "type": "color"
-      },
-      "bolder": {
-        "value": "{color.semantic.information.-2}",
-        "type": "color"
-      }
-    },
-    "icon": {
-      "default": {
-        "value": "{color.semantic.neutral.-4}",
-        "type": "color",
-        "description": "通常我建议使用 inverted global 作为通用的 default 颜色"
-      },
-      "default-inverted": {
-        "value": "{color.semantic.neutral.+8}",
-        "type": "color"
-      },
-      "subtle": {
-        "value": "{color.semantic.neutral.+1}",
-        "type": "color"
-      },
-      "disabled": {
-        "value": "{color.semantic.neutral.+3}",
-        "type": "color"
-      },
-      "information": {
-        "value": "{color.semantic.information.0}",
-        "type": "color",
-        "description": "information 常用于 hypelink，与 brand 做区分"
-      },
-      "success": {
-        "value": "{color.semantic.positive.0}",
-        "type": "color"
-      },
-      "warning": {
-        "value": "{color.semantic.warning.0}",
-        "type": "color",
-        "inverted": {
-          "value": "{color.semantic.warning.-4}",
-          "type": "color"
-        }
-      },
-      "warning-inverted": {
-        "value": "{color.semantic.warning.-4}",
-        "type": "color"
-      },
-      "danger": {
-        "value": "{color.semantic.negative.0}",
-        "type": "color"
-      },
-      "brand": {
-        "value": "{color.semantic.brand.0}",
-        "type": "color",
-        "description": "品牌色暗色模式下不做变化"
-      },
-      "discover": {
-        "value": "{color.noContextual.other.Purple.Default}",
-        "type": "color",
-        "description": "品牌色暗色模式下不做变化"
-      },
-      "accent": {
-        "red": {
-          "value": "{color.semantic.negative.0}",
-          "type": "color",
-          "description": "可用于红色背景上的红色文字。"
-        },
-        "red-bolder": {
-          "value": "{color.semantic.negative.-2}",
-          "type": "color",
-          "description": "可用于红色背景上的红色文字。"
-        },
-        "orange": {
-          "value": "{global.orange.0}",
-          "type": "color",
-          "description": "可用于橘色背景上的文字。"
-        },
-        "orange-bolder": {
-          "value": "{global.orange.-2}",
-          "type": "color",
-          "description": "可用于橘色背景上的文字。"
-        },
-        "green": {
-          "value": "{global.green.+1}",
-          "type": "color",
-          "description": "可用于对应背景上的文字。"
-        },
-        "green-bolder": {
-          "value": "{global.green.-2}",
-          "type": "color",
-          "description": "可用于对应背景上的文字。"
         }
       }
     }

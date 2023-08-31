@@ -1,7 +1,7 @@
 {
-  "Elevations": {
-    "Stroked": {
-      "Depth+4": {
+  "elevations": {
+    "stroked": {
+      "depth+4": {
         "value": [
           {
             "color": "{global.grey.-4}14",
@@ -30,7 +30,7 @@
         ],
         "type": "boxShadow"
       },
-      "Depth+3": {
+      "depth+3": {
         "value": [
           {
             "color": "{global.grey.-4}14",
@@ -51,7 +51,7 @@
         ],
         "type": "boxShadow"
       },
-      "Depth+2": {
+      "depth+2": {
         "value": [
           {
             "color": "{global.grey.-4}1a",
@@ -80,7 +80,7 @@
         ],
         "type": "boxShadow"
       },
-      "Depth+1": {
+      "depth+1": {
         "value": [
           {
             "color": "{global.grey.-4}14",
@@ -123,8 +123,8 @@
         "type": "boxShadow"
       }
     },
-    "Unstroked": {
-      "Depth+4": {
+    "unstroked": {
+      "depth+4": {
         "value": [
           {
             "color": "{global.grey.-4}29",
@@ -145,7 +145,7 @@
         ],
         "type": "boxShadow"
       },
-      "Depth+3": {
+      "depth+3": {
         "value": {
           "x": "0",
           "y": "8",
@@ -156,7 +156,7 @@
         },
         "type": "boxShadow"
       },
-      "Depth+2": {
+      "depth+2": {
         "value": [
           {
             "color": "{global.grey.-4}1a",
@@ -177,7 +177,7 @@
         ],
         "type": "boxShadow"
       },
-      "Depth+1": {
+      "depth+1": {
         "value": {
           "x": "0",
           "y": "1",
@@ -190,8 +190,8 @@
       }
     }
   },
-  "Focus": {
-    "Default Focus + 1px White Offset": {
+  "focus": {
+    "default Focus + 1px White Offset": {
       "value": [
         {
           "color": "{color.background.default}",
@@ -207,12 +207,12 @@
           "x": "0",
           "y": "0",
           "blur": "0",
-          "spread": "2"
+          "spread": "3"
         }
       ],
       "type": "boxShadow"
     },
-    "Default Focus": {
+    "default Focus": {
       "value": {
         "x": "0",
         "y": "0",
@@ -224,8 +224,8 @@
       "type": "boxShadow"
     }
   },
-  "Effect": {
-    "White Offset": {
+  "effect": {
+    "white Offset": {
       "value": {
         "x": "0",
         "y": "0",
@@ -236,7 +236,7 @@
       },
       "type": "boxShadow"
     },
-    "Inner Default Border": {
+    "inner default Border": {
       "value": {
         "x": "0",
         "y": "0",
